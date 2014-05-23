@@ -1,0 +1,11 @@
+{
+	"introduction":"Deze quiz test hoe awesome ferdi is",
+	"questions":[
+		{"question":"Is ferdi een baas?",
+		 "answers":["nee","ja","nee nee","nee"],
+		 "correct":1},
+		{"question":"Is ferdi een held?",
+		 "answers":["nee","nee","ja","nee"],
+		 "correct":2}
+	]
+}
