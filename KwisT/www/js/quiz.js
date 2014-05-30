@@ -1,4 +1,3 @@
-/* global $,window */
 var quizMaster = (function () {
 	var name;
 	var data;
@@ -6,65 +5,87 @@ var quizMaster = (function () {
 	var successCbAlias;
 
 	function nextHandler(e) {
-		e.preventDefault();
-
+        var keuze = e.attr('qvalue');
 		var status = getUserStatus();
 
-		//if we aren't on the intro, then we need to ensure you picked something
 		if(status.question >= 0) {
-			var checked = $("input[type=radio]:checked", displayDom);
-			if(checked.length === 0) {
-				//for now, an ugly alert
-				window.alert("Please answer the question!");
-				return;
-			} else {
-				status.answers[status.question] = checked.val();	
-			}
-		} 
-		status.question++;
-		storeUserStatus(status);
-		displayQuiz(successCbAlias);
+            if(keuze == 1 || keuze == 2 || keuze == 3 || keuze == 0){
+                status.answers[status.question] = keuze;
+                storeUserStatus(status);
+
+                var current = getQuiz();
+                var introHTML = "<div class='answer-info'><div class='answer-info-title'><div class='answer-info-button'>" + e.attr('lvalue') + "</div><div class='answer-info-text'>" + e.text() +
+                    "</div></div><img src='images/vraag_overlay.png' class='overlay' />" +
+                    "<img src='images/vraag1_image.png' /></div><div class='text'><div class='text-header'>" + current.question.infoheader + "</div>" +
+                    "<p>" + current.question.infotext + "</p><a href='#' class='quizMasterNext blue-button'>Volgende vraag</a></div>";
+                $("#contentkaart").html(introHTML);
+                $( ".quizMasterNext" ).each(function(index) {
+                    $(this).on("click", function(){
+                        nextHandler($(this));
+                    });
+                });
+
+            }else{
+                status.question++;
+                storeUserStatus(status);
+                displayQuiz(successCbAlias);
+            }
+		}
+
+        if(keuze == "start"){
+            status.question++;
+            storeUserStatus(status);
+            displayQuiz(successCbAlias);
+        }
 	}
 
 	function displayQuiz(successCb) {
 
-		//We copy this out so our event can use it later. This feels wrong
 		successCbAlias = successCb;
 		var current = getQuiz();
 		var html;
+        var introHTML;
 
 		if(current.state === "introduction") {
             console.log('introduction');
-			html = "<h2>Introductie</h2><p>" + current.introduction + "</p>" + nextButton();
-			displayDom.html(html).trigger('create');
+            introHTML = "<div class='text'><p id='introduction'>" + current.introduction + "</p>" + nextButton("Start quiz") +  "</div>"
+            $("#contentkaart").html(introHTML);
+//            displayDom.trigger('create');
+
 		} else if(current.state === "inprogress") {
             console.log('inprogress');
 
-            html = "<h2>" + current.question.question + "</h2><form><ul class='table-view'>";
-			for(var i=0; i<current.question.answers.length; i++) {
-				html += "<li class='table-view-cell'><input type='radio' name='quizMasterAnswer' id='quizMasterAnswer_"+i+"' value='"+i+"'/><label for='quizMasterAnswer_"+i+"'>" + current.question.answers[i] + "</label></li>";
-			}
-			html += "</ul></form>" + nextButton();
-			displayDom.html(html).trigger('create');
-
-
+            introHTML = "<div class='text question-text'>" + current.question.text +
+                "</div> <div class='question-title'>" + current.question.question + "</div><div class='answers-box'>";
+            for(var i=0; i<current.question.answers.length; i++) {
+                introHTML += "<a class='answer' href='#'><div class='answer-button'>" + String.fromCharCode(i + 97) + "</div><div qvalue='" + [i] + "'  lvalue='" + String.fromCharCode(i + 97) + "'class='quizMasterNext answer-title'>" + current.question.answers[i] + "</div></a>";
+            }
+            introHTML += "</div>";
+            $("#contentkaart").html(introHTML);
+//            displayDom.trigger('create');
 
 		} else if(current.state === "complete") {
             console.log('complete');
 
-            html = "<h2>Klaar!</h2><p>De quiz is afgelopen. Je had  "+current.correct+" vragen correct van de "+data.questions.length+".</p>";
-			displayDom.html(html).trigger('create');
+            introHTML = "<div class='answer-info'><img src='images/score_image.png' /></div><div class='text'><div class='text-header'>Uw score is " + current.correct + " van de " + data.questions.length+  "</div><p>U bent bewust bezig met de gezondheid van uw kind!</p><div class='text-header'>Scores van anderen</div><div class='scores-other'><div class='scores-other-single'><ul id='bars'><li><div data-percentage='56' class='bar'></div><span>56%</span></li></ul></div><div class='scores-other-single'><ul id='bars'><li><div data-percentage='77' class='bar'></div><span>77%</span></li></ul></div></div><div class='scores-other'><div class='scores-other-single'><span class='subtitle'>Bewust</span></div><div class='scores-other-single'><span class='subtitle'>Minder bewust</span></div></div></div>";
+            $("#contentkaart").html(introHTML);
+            $("#bars li .bar").each( function( key, bar ) {
+                var percentage = $(this).data('percentage');
+
+                $(this).animate({
+                    'height' : percentage + '%'
+                }, 1000);
+            });
+			//displayDom.html(html).trigger('create');
 			removeUserStatus();
 			successCb(current);
 		}
-		
-		
-		//Remove previous if there...
-		//Note - used click since folks will be demoing in the browser, use touchend instead
-		displayDom.off("click", ".quizMasterNext", nextHandler);
-		//Then restore it
-		displayDom.on("click", ".quizMasterNext", nextHandler);
-		
+
+        $( ".quizMasterNext" ).each(function(index) {
+            $(this).on("click", function(){
+                nextHandler($(this));
+            });
+        });
 	}
 	
 	function getKey() {
@@ -119,16 +140,14 @@ var quizMaster = (function () {
 		}
 	}
 	
-	function nextButton() {
-//		return "<a href='' class='quizMasterNext' data-role='button'>Volgende</a>";
-		return "<button class='quizMasterNext btn btn-outlined'>Volgende</button>";
-
-        //        <a class="button-positive" href="checkout.html" data-transition="slide-in">Buy Tickets</a>
-
-        //<button class="btn btn-outlined">Button</button>
-
+	function nextButton(text) {
+        if(text != "")
+        {
+            return "<a qvalue='start' class='quizMasterNext blue-button'>" + text + "</a>";
+        }else{
+            return "<a qvalue='start' class='quizMasterNext blue-button'>Volgende</a>";
+        }
     }
-	
 	function removeUserStatus(s) {
 		window.sessionStorage.removeItem(getKey());	
 	}
