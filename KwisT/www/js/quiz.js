@@ -1,5 +1,5 @@
 var quizMaster = (function () {
-	var name;
+    var name;
 	var data;
 	var displayDom;
 	var successCbAlias;
