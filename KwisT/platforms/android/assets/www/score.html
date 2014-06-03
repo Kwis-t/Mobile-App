@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kwist 't</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="css/ratchet.css" rel="stylesheet">
+    
+    <!-- Custom stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+	<div class="balloon">Score</div>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+	  <button class="btn pull-right">
+	  	Deel
+	  </button>
+      <h1 class="title"></h1>
+    </header>
+
+	<div class="content">
+		<div class="card-new">
+			
+			<div class="answer-info">
+				<img src="images/score_image.png" />
+			</div>
+			
+			<div class="text">
+				<div class="text-header">Uw score</div>
+				
+				<p>U bent bewust bezig met de gezondheid van uw kind!</p>
+				
+				<div class="text-header">Scores van anderen</div>
+				
+				<div class="scores-other">
+				
+					<div class="scores-other-single">
+						<ul id="bars">
+							<li><div data-percentage="56" class="bar"></div><span>56%</span></li>
+						</ul>
+					</div>
+					
+					<div class="scores-other-single">
+						<ul id="bars">
+							<li><div data-percentage="77" class="bar"></div><span>77%</span></li>
+						</ul>
+					</div>
+					
+				</div>
+				
+				<div class="scores-other">
+				
+					<div class="scores-other-single">
+						<span class="subtitle">Bewust</span>
+					</div>
+					
+					<div class="scores-other-single">
+						<span class="subtitle">Minder bewust</span>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/ratchet.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/quiz.js"></script>
+    
+    <script type="text/javascript">
+    
+		$(function() {
+		  $("#bars li .bar").each( function( key, bar ) {
+		    var percentage = $(this).data('percentage');
+		
+		    $(this).animate({
+		      'height' : percentage + '%'
+		    }, 1000);
+		  });
+		});
+    
+    </script>
+    
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+
+  </body>
+</html>

@@ -1,6 +1,5 @@
 var app = {
     initialize: function() {
-        console.log(' test');
         this.bindEvents();
     },
 
@@ -14,8 +13,7 @@ var app = {
 
     receivedEvent: function(id) {
         console.log('ONTVANGEN EVENT: ' + id);
-
-        quizMaster.execute("q1.json", ".quizdisplay", function(result) {
+        quizMaster.execute("http://ferdiduisters.nl/q1.json", ".quizdisplay", function(result) {
             console.log("SUCESS CB");
             console.dir(result);
         });

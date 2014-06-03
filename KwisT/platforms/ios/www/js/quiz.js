@@ -5,6 +5,7 @@ var quizMaster = (function () {
 	var successCbAlias;
 
 	function nextHandler(e) {
+                  
         var keuze = e.attr('qvalue');
 		var status = getUserStatus();
 
