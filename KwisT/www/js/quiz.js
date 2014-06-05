@@ -68,6 +68,21 @@ var quizMaster = (function () {
 		} else if(current.state === "complete") {
             console.log('complete');
 
+            var submitVar = "";
+            if(current.correct == data.questions.length){
+                submitVar = "bewust";
+            }else{
+                submitVar = "onbewust";
+            }
+
+            $.ajax({
+                type:'GET',
+                url: 'http://school.ferdiduisters.nl/IA6mob/score.php',
+                data: "action=newscore&score=" + submitVar,
+                success:function(responseData){
+                }
+            });
+
             $.ajax({
                 type:'GET',
                 url: 'http://school.ferdiduisters.nl/IA6mob/score.php',
