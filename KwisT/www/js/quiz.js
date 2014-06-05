@@ -98,12 +98,23 @@ var quizMaster = (function () {
                         "<div data-percentage='" + onbewustPct + "' class='bar'></div><span>" + onbewustPct + "%</span></li></ul></div></div><div class='scores-other'><div class='scores-other-single'><span class='subtitle'>Bewust</span></div><div class='scores-other-single'><span class='subtitle'>Minder bewust</span></div></div></div>";
                     $("#contentkaart").html(introHTML);
 
+
+
                     $("#bars li .bar").each( function( key, bar ) {
                         var percentage = $(this).data('percentage');
 
                         $(this).animate({
                             'height' : percentage + '%'
                         }, 1000);
+                    });
+
+                    var title = "Fietss";
+                    $.getJSON("http://nl.wikipedia.org/w/api.php?action=query&list=search&srprop=timestamp&srsearch="+title+"&format=json&callback=?", function(data) {
+                        title = data['query']['search'][0]['title'];
+                        $("#contentkaart").append("<a href='http://nl.wikipedia.org/wiki/"+title+"' target='wikipedia'>Lees meer op Wikipedia: "+title+"</a><br />");
+                        title = data['query']['search'][1]['title'];
+                        $("#contentkaart").append("<a href='http://nl.wikipedia.org/wiki/"+title+"' target='wikipedia'>Lees meer op Wikipedia: "+title+"</a>");
+
                     });
                     //displayDom.html(html).trigger('create');
                     removeUserStatus();
