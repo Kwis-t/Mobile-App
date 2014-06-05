@@ -13,7 +13,7 @@ var app = {
 
     receivedEvent: function(id) {
         console.log('ONTVANGEN EVENT: ' + id);
-        quizMaster.execute("http://ferdiduisters.nl/jsongenerator.json", ".quizdisplay", function(result) {
+        quizMaster.execute("http://school.ferdiduisters.nl/IA6mob/jsongenerator.json", ".quizdisplay", function(result) {
             console.log("SUCESS CB");
             console.dir(result);
         });
