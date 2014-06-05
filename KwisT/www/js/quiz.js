@@ -68,18 +68,34 @@ var quizMaster = (function () {
 		} else if(current.state === "complete") {
             console.log('complete');
 
-            introHTML = "<div class='answer-info'><img src='images/score_image.png' /></div><div class='text'><div class='text-header'>Uw score is " + current.correct + " van de " + data.questions.length+  "</div><p>U bent bewust bezig met de gezondheid van uw kind!</p><div class='text-header'>Scores van anderen</div><div class='scores-other'><div class='scores-other-single'><ul id='bars'><li><div data-percentage='56' class='bar'></div><span>56%</span></li></ul></div><div class='scores-other-single'><ul id='bars'><li><div data-percentage='77' class='bar'></div><span>77%</span></li></ul></div></div><div class='scores-other'><div class='scores-other-single'><span class='subtitle'>Bewust</span></div><div class='scores-other-single'><span class='subtitle'>Minder bewust</span></div></div></div>";
-            $("#contentkaart").html(introHTML);
-            $("#bars li .bar").each( function( key, bar ) {
-                var percentage = $(this).data('percentage');
+            $.ajax({
+                type:'GET',
+                url: 'http://school.ferdiduisters.nl/IA6mob/score.php',
+                data: "action=getscore",
+                success:function(data2){
+                    var data2 = data2.split(";");
 
-                $(this).animate({
-                    'height' : percentage + '%'
-                }, 1000);
+                    var bewustPct = parseInt(data2[0]) / (parseInt(data2[0]) + parseInt(data2[1])) * 100;
+                    var onbewustPct = 100 - parseInt(bewustPct);
+
+                    introHTML = "<div class='answer-info'><img src='images/score_image.png' /></div><div class='text'><div class='text-header'>Uw score is " + current.correct + " van de " + data.questions.length+  "</div><p>U bent bewust bezig met de gezondheid van uw kind!</p><div class='text-header'>Scores van anderen</div><div class='scores-other'><div class='scores-other-single'><ul id='bars'><li>" +
+                        "<div data-percentage='" + bewustPct + "' class='bar'></div><span>" + bewustPct + "%</span></li></ul></div><div class='scores-other-single'><ul id='bars'><li>" +
+                        "<div data-percentage='" + onbewustPct + "' class='bar'></div><span>" + onbewustPct + "%</span></li></ul></div></div><div class='scores-other'><div class='scores-other-single'><span class='subtitle'>Bewust</span></div><div class='scores-other-single'><span class='subtitle'>Minder bewust</span></div></div></div>";
+                    $("#contentkaart").html(introHTML);
+
+                    $("#bars li .bar").each( function( key, bar ) {
+                        var percentage = $(this).data('percentage');
+
+                        $(this).animate({
+                            'height' : percentage + '%'
+                        }, 1000);
+                    });
+                    //displayDom.html(html).trigger('create');
+                    removeUserStatus();
+                    successCb(current);
+                }
             });
-			//displayDom.html(html).trigger('create');
-			removeUserStatus();
-			successCb(current);
+
 		}
 
         $( ".quizMasterNext" ).each(function(index) {
