@@ -1,8 +1,7 @@
 xcuserdata
 *.xccheckout
 
-KwisT/platforms/
-KwisT/platforms/
+KwisT/platforms/*
 
 KwisT/www/.idea/workspace.xml
 
