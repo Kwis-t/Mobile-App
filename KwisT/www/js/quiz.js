@@ -6,9 +6,6 @@ var quizMaster = (function () {
 
 	function nextHandler(e) {
 
-
-
-
         var keuze = e.attr('qvalue');
 		var status = getUserStatus();
 
@@ -36,10 +33,12 @@ var quizMaster = (function () {
             }
 		}
 
-        if(keuze == "start"){
-            status.question++;
-            storeUserStatus(status);
-            displayQuiz(successCbAlias);
+        if(keuze == "start")
+        {
+                alert("conn");
+                status.question++;
+                storeUserStatus(status);
+                displayQuiz(successCbAlias);
         }
 	}
 
@@ -86,7 +85,7 @@ var quizMaster = (function () {
             $.ajax({
                 type:'GET',
                 url: 'http://school.ferdiduisters.nl/IA6mob/score.php',
-                data: "action=newscore&score=" + submitVar + "&uuid=NIEUWEUUID",
+                data: "action=newscore&score=" + submitVar + "&uuid=" + device.uuid,
                 success:function(responseData){
                 }
             });

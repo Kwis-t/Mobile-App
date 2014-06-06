@@ -6,9 +6,6 @@ var quizMaster = (function () {
 
 	function nextHandler(e) {
 
-
-
-
         var keuze = e.attr('qvalue');
 		var status = getUserStatus();
 
@@ -36,10 +33,12 @@ var quizMaster = (function () {
             }
 		}
 
-        if(keuze == "start"){
-            status.question++;
-            storeUserStatus(status);
-            displayQuiz(successCbAlias);
+        if(keuze == "start")
+        {
+                alert("conn");
+                status.question++;
+                storeUserStatus(status);
+                displayQuiz(successCbAlias);
         }
 	}
 
@@ -69,16 +68,16 @@ var quizMaster = (function () {
 //            displayDom.trigger('create');
 
 		} else if(current.state === "complete") {
-
-            var media = new Media('resources/audio/clapping.wav');
-
-            media.play();
-
             console.log('complete');
 
             var submitVar = "";
             if(current.correct == data.questions.length){
                 submitVar = "bewust";
+
+                var media = new Media('resources/audio/clapping.wav');
+
+                media.play();
+
             }else{
                 submitVar = "onbewust";
             }
@@ -86,7 +85,7 @@ var quizMaster = (function () {
             $.ajax({
                 type:'GET',
                 url: 'http://school.ferdiduisters.nl/IA6mob/score.php',
-                data: "action=newscore&score=" + submitVar,
+                data: "action=newscore&score=" + submitVar + "&uuid=" + device.uuid,
                 success:function(responseData){
                 }
             });
