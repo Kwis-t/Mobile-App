@@ -44,6 +44,13 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/nl.x-services.plugins.socialsharing/www/SocialSharing.js",
+        "id": "nl.x-services.plugins.socialsharing.SocialSharing",
+        "clobbers": [
+            "window.plugins.socialsharing"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.file/www/DirectoryEntry.js",
         "id": "org.apache.cordova.file.DirectoryEntry",
         "clobbers": [
@@ -180,6 +187,7 @@ module.exports.metadata =
     "org.apache.cordova.device": "0.2.9",
     "org.apache.cordova.network-information": "0.2.8",
     "org.apache.cordova.vibration": "0.3.8",
+    "nl.x-services.plugins.socialsharing": "4.3.0",
     "org.apache.cordova.file": "1.1.0"
 }
 // BOTTOM OF METADATA

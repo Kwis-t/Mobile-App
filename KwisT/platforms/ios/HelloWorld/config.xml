@@ -35,6 +35,9 @@
     <feature name="Vibration">
         <param name="ios-package" value="CDVVibration" />
     </feature>
+    <feature name="SocialSharing">
+        <param name="ios-package" value="SocialSharing" />
+    </feature>
     <name>HelloWorld</name>
     <description>
         Hello World sample application that responds to the deviceready event.
@@ -58,6 +61,8 @@
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <gap:plugin name="com.phonegap.plugin.statusbar" />
     <icon src="icon.png" />
     <icon gap:density="ldpi" gap:platform="android" src="res/icon/android/icon-36-ldpi.png" />
     <icon gap:density="mdpi" gap:platform="android" src="res/icon/android/icon-48-mdpi.png" />

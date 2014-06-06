@@ -35,7 +35,6 @@ var quizMaster = (function () {
 
         if(keuze == "start")
         {
-                alert("conn");
                 status.question++;
                 storeUserStatus(status);
                 displayQuiz(successCbAlias);
@@ -106,15 +105,15 @@ var quizMaster = (function () {
                     $("#contentkaart").html(introHTML);
 
                     $("body").prepend("<div class='balloon'>Score " + current.correct + "</div>");
-                    $("header").prepend("<button class='btn pull-right'>Deel</button>");
+                    $("header").append("<a class='deelbuttonclass blue-button btn pull-right'>Deel</a>");
 
                     $("#bars li .bar").each( function( key, bar ) {
                         var percentage = $(this).data('percentage');
-
                         $(this).animate({
                             'height' : percentage + '%'
                         }, 1000);
                     });
+
 
                     var title = "gezondheid";
                     $.getJSON("http://nl.wikipedia.org/w/api.php?action=query&list=search&srprop=timestamp&srsearch="+title+"&format=json&callback=?", function(data) {
@@ -137,8 +136,17 @@ var quizMaster = (function () {
                 nextHandler($(this));
             });
         });
+
+        $( ".deelbuttonclass" ).each(function() {
+            $(this).on("click", function(){
+                alert("test");
+            });
+        });
+
 	}
-	
+
+
+
 	function getKey() {
 		return "quizMaster_"+name;	
 	}
