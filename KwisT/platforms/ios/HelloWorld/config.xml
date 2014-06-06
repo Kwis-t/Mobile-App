@@ -46,6 +46,9 @@
         PhoneGap Team
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+    </feature>
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />

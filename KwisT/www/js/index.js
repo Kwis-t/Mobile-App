@@ -23,7 +23,15 @@ var app = {
         else
         {
             vibrate();
-            $("#contentkaart").html("<p>U heeft geen werkende internetverbinding.</p><p>Start de app opnieuw op met een werkende internetverbinding om verder te gaan.</p>")
+
+            $(".balloon").remove();
+            $("body").prepend("<div class='balloon'>Error</div>");
+
+            $("#contentkaart").html("<div class='text question-text'><p>U heeft geen werkende internetverbinding.</p>" +
+                "<p>Start de app opnieuw op met een werkende internetverbinding om verder te gaan.</p>" +
+                "<a class='btn blue-button' onclick='location.reload()'>Herladen</a>" +
+                "</div>");
+
         }
 
     }
