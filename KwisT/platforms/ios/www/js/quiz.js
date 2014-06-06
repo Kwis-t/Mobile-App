@@ -69,16 +69,16 @@ var quizMaster = (function () {
 //            displayDom.trigger('create');
 
 		} else if(current.state === "complete") {
-
-            var media = new Media('resources/audio/clapping.wav');
-
-            media.play();
-
             console.log('complete');
 
             var submitVar = "";
             if(current.correct == data.questions.length){
                 submitVar = "bewust";
+
+                var media = new Media('resources/audio/clapping.wav');
+
+                media.play();
+
             }else{
                 submitVar = "onbewust";
             }
@@ -106,7 +106,7 @@ var quizMaster = (function () {
                         "<div data-percentage='" + onbewustPct + "' class='bar'></div><span>" + onbewustPct + "%</span></li></ul></div></div><div class='scores-other'><div class='scores-other-single'><span class='subtitle'>Bewust</span></div><div class='scores-other-single'><span class='subtitle'>Minder bewust</span></div></div></div>";
                     $("#contentkaart").html(introHTML);
 
-                    $("body").prepend("<div class='balloon'>Score</div>");
+                    $("body").prepend("<div class='balloon'>Score " + current.correct + "</div>");
                     $("header").prepend("<button class='btn pull-right'>Deel</button>");
 
                     $("#bars li .bar").each( function( key, bar ) {
@@ -117,12 +117,12 @@ var quizMaster = (function () {
                         }, 1000);
                     });
 
-                    var title = "Fietss";
+                    var title = "gezondheid";
                     $.getJSON("http://nl.wikipedia.org/w/api.php?action=query&list=search&srprop=timestamp&srsearch="+title+"&format=json&callback=?", function(data) {
                         title = data['query']['search'][0]['title'];
-                        $("#contentkaart").append("<a href='http://nl.wikipedia.org/wiki/"+title+"' target='wikipedia'>Lees meer op Wikipedia: "+title+"</a><br />");
-                        title = data['query']['search'][1]['title'];
-                        $("#contentkaart").append("<a href='http://nl.wikipedia.org/wiki/"+title+"' target='wikipedia'>Lees meer op Wikipedia: "+title+"</a>");
+                        $(".text-header:first").append("<br />Lees meer op Wikipedia over: <a href='http://nl.wikipedia.org/wiki/"+title+"' target='wikipedia'>"+title+"</a><br />");
+                        //title = data['query']['search'][1]['title'];
+                        //$("#contentkaart").append("<a href='http://nl.wikipedia.org/wiki/"+title+"' target='wikipedia'>Lees meer op Wikipedia: "+title+"</a>");
 
                     });
                     //displayDom.html(html).trigger('create');

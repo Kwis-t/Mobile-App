@@ -117,12 +117,12 @@ var quizMaster = (function () {
                         }, 1000);
                     });
 
-                    var title = "Fietss";
+                    var title = "gezondheid";
                     $.getJSON("http://nl.wikipedia.org/w/api.php?action=query&list=search&srprop=timestamp&srsearch="+title+"&format=json&callback=?", function(data) {
                         title = data['query']['search'][0]['title'];
-                        $("#contentkaart").append("<a href='http://nl.wikipedia.org/wiki/"+title+"' target='wikipedia'>Lees meer op Wikipedia: "+title+"</a><br />");
-                        title = data['query']['search'][1]['title'];
-                        $("#contentkaart").append("<a href='http://nl.wikipedia.org/wiki/"+title+"' target='wikipedia'>Lees meer op Wikipedia: "+title+"</a>");
+                        $(".text-header:first").append("<br />Lees meer op Wikipedia over: <a href='http://nl.wikipedia.org/wiki/"+title+"' target='wikipedia'>"+title+"</a><br />");
+                        //title = data['query']['search'][1]['title'];
+                        //$("#contentkaart").append("<a href='http://nl.wikipedia.org/wiki/"+title+"' target='wikipedia'>Lees meer op Wikipedia: "+title+"</a>");
 
                     });
                     //displayDom.html(html).trigger('create');
