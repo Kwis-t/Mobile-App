@@ -86,7 +86,7 @@ var quizMaster = (function () {
             $.ajax({
                 type:'GET',
                 url: 'http://school.ferdiduisters.nl/IA6mob/score.php',
-                data: "action=newscore&score=" + submitVar,
+                data: "action=newscore&score=" + submitVar + "&uuid=NIEUWEUUID",
                 success:function(responseData){
                 }
             });
@@ -106,7 +106,8 @@ var quizMaster = (function () {
                         "<div data-percentage='" + onbewustPct + "' class='bar'></div><span>" + onbewustPct + "%</span></li></ul></div></div><div class='scores-other'><div class='scores-other-single'><span class='subtitle'>Bewust</span></div><div class='scores-other-single'><span class='subtitle'>Minder bewust</span></div></div></div>";
                     $("#contentkaart").html(introHTML);
 
-
+                    $("body").prepend("<div class='balloon'>Score</div>");
+                    $("header").prepend("<button class='btn pull-right'>Deel</button>");
 
                     $("#bars li .bar").each( function( key, bar ) {
                         var percentage = $(this).data('percentage');
