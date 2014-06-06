@@ -115,6 +115,7 @@ var quizMaster = (function () {
                         });
                     });
 
+                    window.plugins.socialsharing.share('Message only');
 
                     $(".balloon").remove();
                     $("body").prepend("<div class='balloon'>Score " + current.correct + "</div>");
