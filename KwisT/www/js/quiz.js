@@ -78,7 +78,7 @@ var quizMaster = (function () {
             $.ajax({
                 type:'GET',
                 url: 'http://school.ferdiduisters.nl/IA6mob/score.php',
-                data: "action=newscore&score=" + submitVar,
+                data: "action=newscore&score=" + submitVar + "&uuid=NIEUWEUUID",
                 success:function(responseData){
                 }
             });
