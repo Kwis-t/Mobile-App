@@ -107,7 +107,13 @@ var quizMaster = (function () {
                         "<div data-percentage='" + onbewustPct + "' class='bar'></div><span>" + onbewustPct + "%</span></li></ul></div></div><div class='scores-other'><div class='scores-other-single'><span class='subtitle'>Bewust</span></div><div class='scores-other-single'><span class='subtitle'>Minder bewust</span></div></div></div>";
                     $("#contentkaart").html(introHTML);
 
-                    $("header").prepend("<a class='deelbuttonclass blue-button btn pull-right'>Deel</a>");
+                    $("header").prepend("<a class='deelbuttonclass btn blue-button pull-right'>Deel</a>");
+
+                    $(".deelbuttonclass" ).each(function() {
+                        $(this).on("click", function(){
+                            alert("test");
+                        });
+                    });
 
 
                     $(".balloon").remove();
@@ -143,11 +149,7 @@ var quizMaster = (function () {
             });
         });
 
-        $(".deelbuttonclass" ).each(function() {
-            $(this).on("click", function(){
-                alert("test");
-            });
-        });
+
 
 	}
 
