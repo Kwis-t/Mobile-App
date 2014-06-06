@@ -12,10 +12,37 @@ var app = {
     },
 
     receivedEvent: function(id) {
-        console.log('ONTVANGEN EVENT: ' + id);
-        quizMaster.execute("http://school.ferdiduisters.nl/IA6mob/jsongenerator.json", ".quizdisplay", function(result) {
-            console.log("SUCESS CB");
-            console.dir(result);
-        });
+
+        if (hasConnection())
+        {
+            quizMaster.execute("http://school.ferdiduisters.nl/IA6mob/jsongenerator.json", ".quizdisplay", function(result) {
+                console.log("SUCESS CB");
+                console.dir(result);
+            });
+        }
+        else
+        {
+            vibrate();
+            $("#contentkaart").html("<p>U heeft geen werkende internetverbinding.</p><p>Start de app opnieuw op met een werkende internetverbinding om verder te gaan.</p>")
+        }
+
     }
 };
+
+function vibrate()
+{
+    navigator.notification.vibrate(3500);
+}
+
+function hasConnection() {
+    var networkState = navigator.connection.type;
+
+    if (networkState == 'none')
+    {
+        return false;
+    }
+    else
+    {
+        return true;
+    }
+}
