@@ -5,7 +5,10 @@ var quizMaster = (function () {
 	var successCbAlias;
 
 	function nextHandler(e) {
-                  
+
+
+
+
         var keuze = e.attr('qvalue');
 		var status = getUserStatus();
 
@@ -66,6 +69,11 @@ var quizMaster = (function () {
 //            displayDom.trigger('create');
 
 		} else if(current.state === "complete") {
+
+            var media = new Media('resources/audio/clapping.wav');
+
+            media.play();
+
             console.log('complete');
 
             var submitVar = "";

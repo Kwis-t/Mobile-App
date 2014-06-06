@@ -5,7 +5,10 @@ var quizMaster = (function () {
 	var successCbAlias;
 
 	function nextHandler(e) {
-                  
+
+
+
+
         var keuze = e.attr('qvalue');
 		var status = getUserStatus();
 
@@ -71,6 +74,11 @@ var quizMaster = (function () {
             var submitVar = "";
             if(current.correct == data.questions.length){
                 submitVar = "bewust";
+
+                var media = new Media('resources/audio/clapping.wav');
+
+                media.play();
+
             }else{
                 submitVar = "onbewust";
             }
