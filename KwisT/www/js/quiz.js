@@ -107,7 +107,8 @@ var quizMaster = (function () {
                         "<div data-percentage='" + onbewustPct + "' class='bar'></div><span>" + onbewustPct + "%</span></li></ul></div></div><div class='scores-other'><div class='scores-other-single'><span class='subtitle'>Bewust</span></div><div class='scores-other-single'><span class='subtitle'>Minder bewust</span></div></div></div>";
                     $("#contentkaart").html(introHTML);
 
-                    $("header").prepend("<button class='btn pull-right'>Deel</button>");
+                    $("header").prepend("<a class='deelbuttonclass blue-button btn pull-right'>Deel</a>");
+
 
                     $(".balloon").remove();
                     $("body").prepend("<div class='balloon'>Score " + current.correct + "</div>");

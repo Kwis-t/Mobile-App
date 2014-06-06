@@ -32,10 +32,11 @@ var quizMaster = (function () {
             }
 		}
 
-        if(keuze == "start"){
-            status.question++;
-            storeUserStatus(status);
-            displayQuiz(successCbAlias);
+        if(keuze == "start")
+        {
+                status.question++;
+                storeUserStatus(status);
+                displayQuiz(successCbAlias);
         }
 	}
 
@@ -86,7 +87,7 @@ var quizMaster = (function () {
             $.ajax({
                 type:'GET',
                 url: 'http://school.ferdiduisters.nl/IA6mob/score.php',
-                data: "action=newscore&score=" + submitVar + "&uuid=NIEUWEUUID",
+                data: "action=newscore&score=" + submitVar + "&uuid=" + device.uuid,
                 success:function(responseData){
                 }
             });
@@ -106,18 +107,19 @@ var quizMaster = (function () {
                         "<div data-percentage='" + onbewustPct + "' class='bar'></div><span>" + onbewustPct + "%</span></li></ul></div></div><div class='scores-other'><div class='scores-other-single'><span class='subtitle'>Bewust</span></div><div class='scores-other-single'><span class='subtitle'>Minder bewust</span></div></div></div>";
                     $("#contentkaart").html(introHTML);
 
-                    $("header").prepend("<button class='btn pull-right'>Deel</button>");
+                    $("header").prepend("<a class='deelbuttonclass blue-button btn pull-right'>Deel</a>");
+
 
                     $(".balloon").remove();
                     $("body").prepend("<div class='balloon'>Score " + current.correct + "</div>");
 
                     $("#bars li .bar").each( function( key, bar ) {
                         var percentage = $(this).data('percentage');
-
                         $(this).animate({
                             'height' : percentage + '%'
                         }, 1000);
                     });
+
 
                     var title = "gezondheid";
                     $.getJSON("http://nl.wikipedia.org/w/api.php?action=query&list=search&srprop=timestamp&srsearch="+title+"&format=json&callback=?", function(data) {
@@ -140,8 +142,17 @@ var quizMaster = (function () {
                 nextHandler($(this));
             });
         });
+
+        $( ".deelbuttonclass" ).each(function() {
+            $(this).on("click", function(){
+                alert("test");
+            });
+        });
+
 	}
-	
+
+
+
 	function getKey() {
 		return "quizMaster_"+name;	
 	}
