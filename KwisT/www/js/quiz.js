@@ -5,7 +5,6 @@ var quizMaster = (function () {
 	var successCbAlias;
 
 	function nextHandler(e) {
-
         var keuze = e.attr('qvalue');
 		var status = getUserStatus();
 
@@ -54,7 +53,11 @@ var quizMaster = (function () {
             $("#contentkaart").html(introHTML);
 //            displayDom.trigger('create');
 
+
 		} else if(current.state === "inprogress") {
+            $(".balloon").remove();
+            $("body").prepend("<div class='balloon'>Vraag " + (parseInt(getUserStatus().question)+parseInt(1)) + "</div>");
+
             console.log('inprogress');
 
             introHTML = "<div class='text question-text'>" + current.question.text +
@@ -104,8 +107,10 @@ var quizMaster = (function () {
                         "<div data-percentage='" + onbewustPct + "' class='bar'></div><span>" + onbewustPct + "%</span></li></ul></div></div><div class='scores-other'><div class='scores-other-single'><span class='subtitle'>Bewust</span></div><div class='scores-other-single'><span class='subtitle'>Minder bewust</span></div></div></div>";
                     $("#contentkaart").html(introHTML);
 
+                    $("header").prepend("<button class='btn pull-right'>Deel</button>");
+
+                    $(".balloon").remove();
                     $("body").prepend("<div class='balloon'>Score " + current.correct + "</div>");
-                    $("header").append("<a class='deelbuttonclass blue-button btn pull-right'>Deel</a>");
 
                     $("#bars li .bar").each( function( key, bar ) {
                         var percentage = $(this).data('percentage');

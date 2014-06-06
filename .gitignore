@@ -1,7 +1,9 @@
 xcuserdata
 *.xccheckout
 
-Kwist/platforms/ios/www
+KwisT/platforms/ios/www
+KwisT/platforms/android
+
 KwisT/www/.idea/workspace.xml
 
 KwisT/www/js/index.js
@@ -11,3 +13,9 @@ KwisT/www/js/index.js
 KwisT/platforms/ios/cordova/console.log
 
 KwisT/platforms/ios/www/js/quiz.js
+
+KwisT/platforms/android/assets/www/js/index.js
+
+KwisT/platforms/android/assets/www/js/quiz.js
+
+KwisT/platforms/android/res/xml/config.xml

@@ -5,7 +5,6 @@ var quizMaster = (function () {
 	var successCbAlias;
 
 	function nextHandler(e) {
-
         var keuze = e.attr('qvalue');
 		var status = getUserStatus();
 
@@ -33,12 +32,10 @@ var quizMaster = (function () {
             }
 		}
 
-        if(keuze == "start")
-        {
-                alert("conn");
-                status.question++;
-                storeUserStatus(status);
-                displayQuiz(successCbAlias);
+        if(keuze == "start"){
+            status.question++;
+            storeUserStatus(status);
+            displayQuiz(successCbAlias);
         }
 	}
 
@@ -55,7 +52,11 @@ var quizMaster = (function () {
             $("#contentkaart").html(introHTML);
 //            displayDom.trigger('create');
 
+
 		} else if(current.state === "inprogress") {
+            $(".balloon").remove();
+            $("body").prepend("<div class='balloon'>Vraag " + (parseInt(getUserStatus().question)+parseInt(1)) + "</div>");
+
             console.log('inprogress');
 
             introHTML = "<div class='text question-text'>" + current.question.text +
@@ -85,7 +86,7 @@ var quizMaster = (function () {
             $.ajax({
                 type:'GET',
                 url: 'http://school.ferdiduisters.nl/IA6mob/score.php',
-                data: "action=newscore&score=" + submitVar + "&uuid=" + device.uuid,
+                data: "action=newscore&score=" + submitVar + "&uuid=NIEUWEUUID",
                 success:function(responseData){
                 }
             });
@@ -105,8 +106,10 @@ var quizMaster = (function () {
                         "<div data-percentage='" + onbewustPct + "' class='bar'></div><span>" + onbewustPct + "%</span></li></ul></div></div><div class='scores-other'><div class='scores-other-single'><span class='subtitle'>Bewust</span></div><div class='scores-other-single'><span class='subtitle'>Minder bewust</span></div></div></div>";
                     $("#contentkaart").html(introHTML);
 
-                    $("body").prepend("<div class='balloon'>Score " + current.correct + "</div>");
                     $("header").prepend("<button class='btn pull-right'>Deel</button>");
+
+                    $(".balloon").remove();
+                    $("body").prepend("<div class='balloon'>Score " + current.correct + "</div>");
 
                     $("#bars li .bar").each( function( key, bar ) {
                         var percentage = $(this).data('percentage');
