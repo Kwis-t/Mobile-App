@@ -142,7 +142,7 @@ var quizMaster = (function () {
             });
         });
 
-        $( ".deelbuttonclass" ).each(function() {
+        $(".deelbuttonclass" ).each(function() {
             $(this).on("click", function(){
                 alert("test");
             });
