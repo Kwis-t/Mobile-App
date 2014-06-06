@@ -154,7 +154,7 @@ var quizMaster = (function () {
                     var title = "gezondheid";
                     $.getJSON("http://nl.wikipedia.org/w/api.php?action=query&list=search&srprop=timestamp&srsearch="+title+"&format=json&callback=?", function(data) {
                         title = data['query']['search'][0]['title'];
-                        $(".text-header:first").append("<p>Lees meer op Wikipedia over: <a href='http://nl.wikipedia.org/wiki/"+title+"' target='wikipedia'>"+title+"</a></p>");
+                        $(".text-header:first").append("<p>Lees meer op Wikipedia over: <a onclick='window.open(\"http://nl.wikipedia.org/wiki/"+title+"\", \"_system\");' href='#' target='wikipedia'>"+title+"</a></p>");
                         //title = data['query']['search'][1]['title'];
                         //$("#contentkaart").append("<a href='http://nl.wikipedia.org/wiki/"+title+"' target='wikipedia'>Lees meer op Wikipedia: "+title+"</a>");
 
