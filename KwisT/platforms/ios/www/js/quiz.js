@@ -18,7 +18,7 @@ var quizMaster = (function () {
                     var introHTML = "<div class='answer-info'><div class='answer-info-title'><div class='answer-info-button'>" + e.attr('lvalue') + "</div><div class='answer-info-text'>" + e.text() +
                         "</div></div><img src='images/vraag_overlay.png' class='overlay' />" +
                         "<img src='images/vraag"+(parseInt(status.question)+parseInt(1))+"_image.png' /></div><div class='text'><div class='text-header'>" + current.question.infoheader + "</div>" +
-                        "<p>" + current.question.infotext + "</p><a href='#' class='quizMasterNext blue-button'>Bekijk mijn score</a></div>";
+                        "<p>" + current.question.infotext + "</p><a href='#' wikionderwerp='" + current.question.wikionderwerp + "' class='wikiclick blue-button'><img src='images/wikipedia-logo.png'></img>Lees meer op Wikipedia</a><a href='#' class='quizMasterNext blue-button'>Bekijk mijn score</a></div>";
                     $("#contentkaart").html(introHTML);
                     $( ".quizMasterNext" ).each(function(index) {
                         $(this).on("click", function(){
@@ -39,16 +39,81 @@ var quizMaster = (function () {
                             nextHandler($(this));
                         });
                     });
+
                     
                 }
 
                 $( ".wikiclick" ).each(function(index) {
                     $(this).on("click", function(){
-                        var onderwerp = $(this).attr('wikionderwerp');
-                        alert(onderwerp);
+                        var title = $(this).attr('wikionderwerp');
+                        //$.getJSON("http://nl.wikipedia.org/w/api.php?action=query&list=search&srprop=timestamp&srsearch="+title+"&format=json&callback=?", function(data2) {
+                         //   title = data2['query']['search'][0]['title'];
+
+                            $.getJSON("http://nl.wikipedia.org/w/api.php?action=parse&page=" + title + "&prop=text&section=0&format=json&callback=?", function (data) {
+                                for (text in data.parse.text) {
+                                    var text = data.parse.text[text].split("<p>");
+                                    var pText = "";
+
+                                    for (p in text) {
+                                        //Remove html comment
+                                        text[p] = text[p].split("<!--");
+                                        if (text[p].length > 1) {
+                                            text[p][0] = text[p][0].split(/\r\n|\r|\n/);
+                                            text[p][0] = text[p][0][0];
+                                            text[p][0] += "</p> ";
+                                        }
+                                        text[p] = text[p][0];
+
+                                        //Construct a string from paragraphs
+                                        if (text[p].indexOf("</p>") == text[p].length - 5) {
+                                            var htmlStrip = text[p].replace(/<(?:.|\n)*?>/gm, '') //Remove HTML
+                                            var splitNewline = htmlStrip.split(/\r\n|\r|\n/); //Split on newlines
+                                            for (newline in splitNewline) {
+                                                if (splitNewline[newline].substring(0, 11) != "Cite error:") {
+                                                    pText += splitNewline[newline];
+                                                    pText += "\n";
+                                                }
+                                            }
+                                        }
+                                    }
+                                    pText = pText.substring(0, pText.length - 2); //Remove extra newline
+                                    pText = pText.replace(/\[\d+\]/g, ""); //Remove reference tags (e.x. [1], [4], etc)
+                                    alert(pText);
+                                    //document.getElementById('textarea').value = pText
+                                    //document.getElementById('div_text').innerHTML = pText
+
+
+                                    $("header").show();
+                                    $(".content").html('<div id="contentkaart" class="card-new"></div>');
+                                    $(".balloon").remove();
+                                    $(".content").css('background-image', '');
+                                    if(status.question == 6){
+                                        introHTML = "<div class='text'><br\><br\><br\>"+pText+"<a href='#' class='quizMasterNext blue-button'>Bekijk mijn score</a></div>";
+                                    }else{
+                                        introHTML = "<div class='text'><br\><br\><br\>"+pText+"<a href='#' class='quizMasterNext blue-button'>Volgende vraag</a></div>";
+                                    }
+                                    $("#contentkaart").html(introHTML);
+                                    $("body").prepend("<div class='balloon'>"+title+"</div>");
+
+                                    $( ".quizMasterNext" ).each(function(index) {
+                                        $(this).on("click", function(){
+                                            nextHandler($(this));
+                                        });
+                                    });
+                                }
+                           // });
+                        });
+
+
+
+
+
+
 
                     });
                 });
+
+
 
             }else{
                 status.question++;
@@ -170,14 +235,14 @@ var quizMaster = (function () {
                     });
 
 
-                    var title = "gezondheid";
+                    /*var title = "gezondheid";
                     $.getJSON("http://nl.wikipedia.org/w/api.php?action=query&list=search&srprop=timestamp&srsearch="+title+"&format=json&callback=?", function(data) {
                         title = data['query']['search'][0]['title'];
                         $(".text-header:first").append("<p>Lees meer op Wikipedia over: <a onclick='window.open(\"http://nl.wikipedia.org/wiki/"+title+"\", \"_system\");' href='#' target='wikipedia'>"+title+"</a></p>");
                         //title = data['query']['search'][1]['title'];
                         //$("#contentkaart").append("<a href='http://nl.wikipedia.org/wiki/"+title+"' target='wikipedia'>Lees meer op Wikipedia: "+title+"</a>");
 
-                    });
+                    });*/
                     //displayDom.html(html).trigger('create');
                     removeUserStatus();
                     successCb(current);
