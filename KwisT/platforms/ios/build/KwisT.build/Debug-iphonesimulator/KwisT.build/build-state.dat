@@ -72,8 +72,8 @@ t1401788967
 s5977
 
 N/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Info.plist
-c0000000053970BC70000000000000A85
-t1402407879
+c00000000539754060000000000000A85
+t1402426374
 s2693
 
 N/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Prefix.pch
@@ -364,11 +364,11 @@ t1402061412
 s45
 
 N/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app
-t1402407880
+t1402426380
 s1020
 
 N/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app.dSYM
-t1402407474
+t1402426374
 s102
 
 N/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/Default-568h@2x~iphone.png
@@ -400,7 +400,7 @@ t1402061412
 s274106
 
 N/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/Info.plist
-t1402407879
+t1402426380
 s1354
 
 N/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/KwisT
@@ -980,7 +980,7 @@ s5376512
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf12acb474347b941^8978cb474347b941^---0#1#1#--18"Check dependencies36"C67884BA-CF87-4A6F-82EE-006052FE74A6-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciese082308c8b47b941^fed4308c8b47b941^---0#1#1#--18"Check dependencies36"5AA35366-DF00-44F6-AC91-39D1D0BD1B05-
 
 CCompileC build/KwisT.build/Debug-iphonesimulator/KwisT.build/Objects-normal/i386/AppDelegate.o /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s423754215.774632
@@ -1687,14 +1687,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy bu
 bBCEE9A03-D218-419B-8FA0-A8FE5ECCD18A
 
 CGenerateDSYMFile /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app.dSYM /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/KwisT
-s424100680.064234
-e424100680.127228
+s424119180.398884
+e424119180.446449
 r1
 xGenerateDSYMFile
 x/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app.dSYM
 x/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/KwisT
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Generate /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app.dSYM93"[1mGenerateDSYMFile[0m [1mbuild/emulator/KwisT.app.dSYM[0m build/emulator/KwisT.app/KwisT9e9510484347b941^149620484347b941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app.dSYM/0000000000000000^1199"[1mGenerateDSYMFile[0m [1mbuild/emulator/KwisT.app.dSYM[0m build/emulator/KwisT.app/KwisT    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/ferdiduisters/.rvm/bin:/Users/ferdiduisters/bin/Sencha/Cmd/3.1.2.342:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Android Studio.app/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/platform-tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/apache-ant-1.9.4/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/KwisT -o /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app.dSYM36"E5BF5E2F-C699-4C73-9DD4-3660D02FFF5B-
-bB1858EBC-8665-497C-AC31-14CB21A8EA39
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Generate /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app.dSYM93"[1mGenerateDSYMFile[0m [1mbuild/emulator/KwisT.app.dSYM[0m build/emulator/KwisT.app/KwisT0742668c8b47b941^cf4a728c8b47b941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app.dSYM/0000000000000000^1199"[1mGenerateDSYMFile[0m [1mbuild/emulator/KwisT.app.dSYM[0m build/emulator/KwisT.app/KwisT    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/ferdiduisters/.rvm/bin:/Users/ferdiduisters/bin/Sencha/Cmd/3.1.2.342:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Android Studio.app/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/platform-tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/apache-ant-1.9.4/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/KwisT -o /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app.dSYM36"E8151FC1-E3BD-4CBB-B8E7-A44A43618AB6-
+b07C8C38D-6F61-4746-AA3F-328163BBEC54
 
 CLd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/KwisT normal i386
 s423754216.528883
@@ -1795,28 +1795,28 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Link /A
 bBCEE9A03-D218-419B-8FA0-A8FE5ECCD18A
 
 CPhaseScriptExecution Copy\ www\ directory /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphonesimulator/KwisT.build/Script-304B58A110DAC018002A0835.sh
-s424100679.799210
-e424100680.048301
+s424119180.194737
+e424119180.393186
 r1
 xPhaseScriptExecution
 xCopy www directory
 x/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphonesimulator/KwisT.build/Script-304B58A110DAC018002A0835.sh
 o
-oreal	0m0.226s
-ouser	0m0.083s
-osys	0m0.134s
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'136"[1mPhaseScriptExecution[0m Copy\ www\ directory build/KwisT.build/Debug-iphonesimulator/KwisT.build/Script-304B58A110DAC018002A0835.shdd25cd474347b941^1c5e0c484347b941^-42"real	0m0.226suser	0m0.083ssys	0m0.134s3(21%IDEActivityLogMessage2@14"real	0m0.226s-424100680#1#14#-0#-----2@14"user	0m0.083s-424100680#15#14#-0#-----2@13"sys	0m0.134s-424100680#29#13#-0#-----0#0#1#--360"[1mPhaseScriptExecution[0m Copy\ www\ directory build/KwisT.build/Debug-iphonesimulator/KwisT.build/Script-304B58A110DAC018002A0835.sh    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    /bin/sh -c /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphonesimulator/KwisT.build/Script-304B58A110DAC018002A0835.sh36"DD43342D-F4F2-44F3-A219-C10FF4C33279-
-bB1858EBC-8665-497C-AC31-14CB21A8EA39
+oreal	0m0.179s
+ouser	0m0.074s
+osys	0m0.103s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'136"[1mPhaseScriptExecution[0m Copy\ www\ directory build/KwisT.build/Debug-iphonesimulator/KwisT.build/Script-304B58A110DAC018002A0835.sh433c328c8b47b941^7ea8648c8b47b941^-42"real	0m0.179suser	0m0.074ssys	0m0.103s3(21%IDEActivityLogMessage2@14"real	0m0.179s-424119180#1#14#-0#-----2@14"user	0m0.074s-424119180#15#14#-0#-----2@13"sys	0m0.103s-424119180#29#13#-0#-----0#0#1#--360"[1mPhaseScriptExecution[0m Copy\ www\ directory build/KwisT.build/Debug-iphonesimulator/KwisT.build/Script-304B58A110DAC018002A0835.sh    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    /bin/sh -c /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphonesimulator/KwisT.build/Script-304B58A110DAC018002A0835.sh36"AC3AA4CF-6B83-4494-B533-2A61EC444C4B-
+b07C8C38D-6F61-4746-AA3F-328163BBEC54
 
 CProcessInfoPlistFile /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/Info.plist /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Info.plist
-s424100679.795642
-e424100679.798076
+s424119180.191531
+e424119180.193700
 r1
 xProcessInfoPlistFile
 x/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/Info.plist
 x/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Process /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Info.plist95"[1mProcessInfoPlistFile[0m build/emulator/KwisT.app/Info.plist [1mKwisT/KwisT-Info.plist[0m1bd7cb474347b941^e84ecc474347b941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Info.plist0000000000000000^1292"[1mProcessInfoPlistFile[0m build/emulator/KwisT.app/Info.plist [1mKwisT/KwisT-Info.plist[0m    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/ferdiduisters/.rvm/bin:/Users/ferdiduisters/bin/Sencha/Cmd/3.1.2.342:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Android Studio.app/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/platform-tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/apache-ant-1.9.4/bin"    builtin-infoPlistUtility /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Info.plist -genpkginfo /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/Info.plist36"E87B9F3E-A1AB-4EBD-8F19-7411975CA45B-
-bB1858EBC-8665-497C-AC31-14CB21A8EA39
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Process /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Info.plist95"[1mProcessInfoPlistFile[0m build/emulator/KwisT.app/Info.plist [1mKwisT/KwisT-Info.plist[0m1630318c8b47b941^c497318c8b47b941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Info.plist0000000000000000^1292"[1mProcessInfoPlistFile[0m build/emulator/KwisT.app/Info.plist [1mKwisT/KwisT-Info.plist[0m    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/ferdiduisters/.rvm/bin:/Users/ferdiduisters/bin/Sencha/Cmd/3.1.2.342:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Android Studio.app/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/platform-tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/apache-ant-1.9.4/bin"    builtin-infoPlistUtility /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Info.plist -genpkginfo /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/Info.plist36"166DAA8A-608D-4610-B43B-5EFF3D5B6BB3-
+b07C8C38D-6F61-4746-AA3F-328163BBEC54
 
 CProcessPCH /var/folders/qq/dj5w4b6x33x8yy6c91fvn_xw0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/KwisT-Prefix-hgexsdqwcugisbdkohrfrvefwvyy/KwisT-Prefix.pch.pch KwisT/KwisT-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s423754215.074045
@@ -1834,11 +1834,11 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precomp
 bBCEE9A03-D218-419B-8FA0-A8FE5ECCD18A
 
 CTouch /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app
-s424100680.128060
-e424100680.134072
+s424119180.447162
+e424119180.451639
 r1
 xTouch
 x/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Touch /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app38"[1mTouch[0m build/emulator/KwisT.app8cdb20484347b941^505422484347b941^---0#0#1#--970"[1mTouch[0m build/emulator/KwisT.app    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/ferdiduisters/.rvm/bin:/Users/ferdiduisters/bin/Sencha/Cmd/3.1.2.342:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Android Studio.app/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/platform-tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/apache-ant-1.9.4/bin"    /usr/bin/touch -c /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app36"CC300462-3623-41DF-BCCD-BEB768CA10BB-
-bB1858EBC-8665-497C-AC31-14CB21A8EA39
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Touch /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app38"[1mTouch[0m build/emulator/KwisT.app728a728c8b47b941^fd9f738c8b47b941^---0#0#1#--970"[1mTouch[0m build/emulator/KwisT.app    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/ferdiduisters/.rvm/bin:/Users/ferdiduisters/bin/Sencha/Cmd/3.1.2.342:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Android Studio.app/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/platform-tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/apache-ant-1.9.4/bin"    /usr/bin/touch -c /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app36"7B284DD2-EFA3-4681-A2D3-456FC52FBB33-
+b07C8C38D-6F61-4746-AA3F-328163BBEC54
 

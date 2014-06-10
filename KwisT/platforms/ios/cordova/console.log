@@ -1221,3 +1221,25 @@ objc[4133]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.ap
 2014-06-10 14:46:50.971 KwisT[4133:70b] [CDVTimer][TotalPluginStartup] 2.285004ms
 2014-06-10 14:46:51.072 KwisT[4133:70b] Resetting plugins due to page load.
 2014-06-10 14:46:51.969 KwisT[4133:70b] Finished load of: file:///Users/ferdiduisters/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/D0A5EF8D-CC05-4813-949B-87727C97FFAB/KwisT.app/www/index.html
+objc[1117]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-10 20:51:46.298 KwisT[1117:70b] Cannot find executable for CFBundle 0xbf31b60 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/SocialFramework.axbundle> (not loaded)
+2014-06-10 20:51:46.321 KwisT[1117:70b] Cannot find executable for CFBundle 0xc14ded0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-10 20:51:46.327 KwisT[1117:70b] Cannot find executable for CFBundle 0xc159c60 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/MusicLibrary.axbundle> (not loaded)
+2014-06-10 20:51:46.331 KwisT[1117:70b] Cannot find executable for CFBundle 0xbf3b240 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-10 20:51:46.343 KwisT[1117:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 20:51:46.366 KwisT[1117:70b] Unlimited access to network resources
+2014-06-10 20:51:46.463 KwisT[1117:70b] [CDVTimer][file] 1.920998ms
+2014-06-10 20:51:46.463 KwisT[1117:70b] [CDVTimer][TotalPluginStartup] 2.445996ms
+2014-06-10 20:51:46.600 KwisT[1117:70b] Resetting plugins due to page load.
+2014-06-10 20:51:47.595 KwisT[1117:70b] Finished load of: file:///Users/ferdiduisters/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/D0A5EF8D-CC05-4813-949B-87727C97FFAB/KwisT.app/www/index.html
+objc[1425]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-10 20:53:06.027 KwisT[1425:70b] Cannot find executable for CFBundle 0xbf289a0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/MusicLibrary.axbundle> (not loaded)
+2014-06-10 20:53:06.034 KwisT[1425:70b] Cannot find executable for CFBundle 0xc03b440 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-10 20:53:06.050 KwisT[1425:70b] Cannot find executable for CFBundle 0xbf457b0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/SocialFramework.axbundle> (not loaded)
+2014-06-10 20:53:06.059 KwisT[1425:70b] Cannot find executable for CFBundle 0xc119860 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-10 20:53:06.073 KwisT[1425:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 20:53:06.087 KwisT[1425:70b] Unlimited access to network resources
+2014-06-10 20:53:06.113 KwisT[1425:70b] [CDVTimer][file] 1.605034ms
+2014-06-10 20:53:06.114 KwisT[1425:70b] [CDVTimer][TotalPluginStartup] 2.200007ms
+2014-06-10 20:53:06.195 KwisT[1425:70b] Resetting plugins due to page load.
+2014-06-10 20:53:07.098 KwisT[1425:70b] Finished load of: file:///Users/ferdiduisters/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/D0A5EF8D-CC05-4813-949B-87727C97FFAB/KwisT.app/www/index.html

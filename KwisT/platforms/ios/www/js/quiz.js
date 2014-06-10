@@ -17,7 +17,7 @@ var quizMaster = (function () {
                     var current = getQuiz();
                     var introHTML = "<div class='answer-info'><div class='answer-info-title'><div class='answer-info-button'>" + e.attr('lvalue') + "</div><div class='answer-info-text'>" + e.text() +
                         "</div></div><img src='images/vraag_overlay.png' class='overlay' />" +
-                        "<img src='images/vraag1_image.png' /></div><div class='text'><div class='text-header'>" + current.question.infoheader + "</div>" +
+                        "<img src='images/vraag"+(parseInt(status.question)+parseInt(1))+"_image.png' /></div><div class='text'><div class='text-header'>" + current.question.infoheader + "</div>" +
                         "<p>" + current.question.infotext + "</p><a href='#' class='quizMasterNext blue-button'>Bekijk mijn score</a></div>";
                     $("#contentkaart").html(introHTML);
                     $( ".quizMasterNext" ).each(function(index) {
@@ -30,7 +30,7 @@ var quizMaster = (function () {
                     var current = getQuiz();
                     var introHTML = "<div class='answer-info'><div class='answer-info-title'><div class='answer-info-button'>" + e.attr('lvalue') + "</div><div class='answer-info-text'>" + e.text() +
                         "</div></div><img src='images/vraag_overlay.png' class='overlay' />" +
-                        "<img src='images/vraag1_image.png' /></div><div class='text'><div class='text-header'>" + current.question.infoheader + "</div>" +
+                        "<img src='images/vraag"+(parseInt(status.question)+parseInt(1))+"_image.png' /></div><div class='text'><div class='text-header'>" + current.question.infoheader + "</div>" +
                         "<p>" + current.question.infotext + "</p><a href='#' class='quizMasterNext blue-button'>Volgende vraag</a></div>";
                     $("#contentkaart").html(introHTML);
                     $( ".quizMasterNext" ).each(function(index) {

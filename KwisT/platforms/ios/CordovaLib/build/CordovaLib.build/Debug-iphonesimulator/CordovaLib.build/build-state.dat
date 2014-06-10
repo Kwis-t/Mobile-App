@@ -598,7 +598,7 @@ s3241876
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf5bbb4474347b941^c362c8474347b941^---0#1#1#--18"Check dependencies36"5E946F21-07AB-4C61-8D85-1F6C73CE5253-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies766e1e8c8b47b941^34302e8c8b47b941^---0#1#1#--18"Check dependencies36"92A22B3A-0D78-4319-ABA1-CC7BC4F839B8-
 
 CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s423649432.880908
