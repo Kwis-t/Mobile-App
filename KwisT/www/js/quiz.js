@@ -63,6 +63,7 @@ var quizMaster = (function () {
         var introHTML;
 
 		if(current.state === "introduction") {
+            $("header").hide();
             console.log('introduction');
             //introHTML = "<div class='text'><p id='introduction'>" + current.introduction + "</p>" + nextButton("Start quiz") +  "</div>";
             introHTML = "<div class='blue-button-holder'><a qvalue='start' class='quizMasterNext blue-button-intro'>Start Quiz</a>" + "<a class='infoscherm blue-button-intro'>Info</a></div>";
@@ -74,6 +75,7 @@ var quizMaster = (function () {
 
 
 		} else if(current.state === "inprogress") {
+            $("header").show();
             $(".content").html('<div id="contentkaart" class="card-new"></div>');
             $(".balloon").remove();
             $(".content").css('background-image', '');
@@ -97,6 +99,9 @@ var quizMaster = (function () {
             if(current.correct == data.questions.length){
                 submitVar = "bewust";
 
+                //droid
+//                var media = new Media('/android_asset/www/resources/audio/clapping.wav');
+                //ios
                 var media = new Media('resources/audio/clapping.wav');
 
                 media.play();
@@ -178,11 +183,20 @@ var quizMaster = (function () {
         });
         $( ".infoscherm" ).each(function(index) {
             $(this).on("click", function(){
+                $("header").show();
             $(".content").html('<div id="contentkaart" class="card-new"></div>');
             $(".balloon").remove();
             $(".content").css('background-image', '');
-            introHTML = "info over de app";
+            introHTML = "<div class='text'><br \><br \><br \>Kwist 't is een quiz om ouders van kinderen bewust te maken van overgewicht bij kinderen. Door een gezonde levensstijl kan overmatig overgewicht voorkomen worden. In deze quiz krijg je vragen over bepaalde situaties. Na elke vraag krijg je suggesties voor een goede levensstijl van je kind. <br \>De antwoorden die je geeft worden anoniem opgeslagen. Er wordt geen data van de gebruiker verzameld. <br \><br \>Kwist 't is gemaakt door Ferdi Duisters, Paul Poos en Bram Kersten, in opdracht van Fontys Hogescholen Eindhoven.<br \></div>";
             $("#contentkaart").html(introHTML);
+            $("header").prepend("<a class='opnieuwButtonClass btn blue-button pull-left'>Klaar</a>");
+                $(".opnieuwButtonClass" ).each(function() {
+                    $(this).on("click", function(){
+                        location.reload();
+                    });
+                });
+
+                $("body").prepend("<div class='balloon'>Info</div>");
 
             //done
             //location.reload()

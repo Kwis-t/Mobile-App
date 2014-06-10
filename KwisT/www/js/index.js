@@ -39,7 +39,7 @@ var app = {
 
 function vibrate()
 {
-    navigator.notification.vibrate();
+    navigator.notification.vibrate(2000);
 }
 
 function hasConnection() {
