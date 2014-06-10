@@ -1,6 +1,6 @@
 dependencies: \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVPluginResult.m \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVPluginResult.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVJSON.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVDebug.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVPluginResult.m \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVPluginResult.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVJSON.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVDebug.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/NSData+Base64.h

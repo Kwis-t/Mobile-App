@@ -1,3 +1,3 @@
 dependencies: \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVWhitelist.m \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVWhitelist.m \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
