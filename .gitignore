@@ -2,3 +2,5 @@
 KwisT/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/build-state.dat
 
 KwisT/platforms/ios/build/KwisT.build/Debug-iphonesimulator/KwisT.build/build-state.dat
+
+*.hmap
