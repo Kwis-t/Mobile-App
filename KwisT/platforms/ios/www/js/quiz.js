@@ -102,8 +102,6 @@ var quizMaster = (function () {
                 media.play();
 
                 vibrate();
-
-
             }else{
                 submitVar = "onbewust";
             }
