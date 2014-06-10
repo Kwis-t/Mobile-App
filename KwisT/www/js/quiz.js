@@ -46,13 +46,17 @@ var quizMaster = (function () {
                 $( ".wikiclick" ).each(function(index) {
                     $(this).on("click", function(){
                         var title = $(this).attr('wikionderwerp');
-                        //$.getJSON("http://nl.wikipedia.org/w/api.php?action=query&list=search&srprop=timestamp&srsearch="+title+"&format=json&callback=?", function(data2) {
-                         //   title = data2['query']['search'][0]['title'];
+                        $.getJSON("http://nl.wikipedia.org/w/api.php?action=query&list=search&srprop=timestamp&srsearch="+title+"&format=json&callback=?", function(data2) {
+                            title = data2['query']['search'][0]['title'];
 
-                            $.getJSON("http://nl.wikipedia.org/w/api.php?action=parse&page=" + title + "&prop=text&section=0&format=json&callback=?", function (data) {
+                            //alert(title);
+
+                            $.getJSON("http://nl.wikipedia.org/w/api.php?action=parse&page=" + title + "&prop=text&format=json&callback=?", function (data) {
                                 for (text in data.parse.text) {
                                     var text = data.parse.text[text].split("<p>");
                                     var pText = "";
+
+                                    //alert(text);
 
                                     for (p in text) {
                                         //Remove html comment
@@ -78,7 +82,6 @@ var quizMaster = (function () {
                                     }
                                     pText = pText.substring(0, pText.length - 2); //Remove extra newline
                                     pText = pText.replace(/\[\d+\]/g, ""); //Remove reference tags (e.x. [1], [4], etc)
-                                    alert(pText);
                                     //document.getElementById('textarea').value = pText
                                     //document.getElementById('div_text').innerHTML = pText
 
@@ -101,7 +104,7 @@ var quizMaster = (function () {
                                         });
                                     });
                                 }
-                           // });
+                            });
                         });
 
 

@@ -1,5 +1,5 @@
 fc68a9e515084fd7333cec8562afc050 9c99d713bfdf238bd5686b7eff148be4 ffffffffffffffffffffffffffffffff 1020 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app
-00000000539764810000000000000a85 0ea7996a79262af026c1c890aa33f2e1 ffffffffffffffffffffffffffffffff 0 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/PkgInfo
+000000005397677e0000000000000a85 0ea7996a79262af026c1c890aa33f2e1 ffffffffffffffffffffffffffffffff 0 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/PkgInfo
 00000000538d9a270000000000002dba 98917341df09831a626e7be3bd224925 ffffffffffffffffffffffffffffffff 11706 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/icon-72@2x.png
 00000000538d9a270000000000003b9e 06ddbd7a5c0d5947f6497cd7dd426c8d ffffffffffffffffffffffffffffffff 15262 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/icon-76@2x.png
 00000000538d9a27000000000000258b 62b2d5e3a7c15848c6aeebce8498a1b3 ffffffffffffffffffffffffffffffff 9611 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/icon-50@2x.png
@@ -24,8 +24,8 @@ fc68a9e515084fd7333cec8562afc050 9c99d713bfdf238bd5686b7eff148be4 ffffffffffffff
 00000000538d9a270000000000001350 e864db2d49404bd526c004d2623ed832 ffffffffffffffffffffffffffffffff 4944 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/icon-72.png
 00000000538d9a270000000000001cf3 d8da3f0c848eafec6a04b1e139c360e3 ffffffffffffffffffffffffffffffff 7411 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/icon-40@2x.png
 00000000538d9a270000000000001b71 a66bfc7552e5c50350d095cffd08cbde ffffffffffffffffffffffffffffffff 7025 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/icon-76.png
-9b8a0c76896f9f1aadfcf74683c73690 418e2224c9c43b3b843df667a3440192 ffffffffffffffffffffffffffffffff 102 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app.dSYM
-00000000539764810000000000000a85 0ea7996a79262af026c1c890aa33f2e1 ffffffffffffffffffffffffffffffff 1354 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/Info.plist
+9b8a0c76896f9ce5adfcf74683c73690 418e2224c9c43b3b843df667a3440192 ffffffffffffffffffffffffffffffff 102 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app.dSYM
+000000005397677e0000000000000a85 0ea7996a79262af026c1c890aa33f2e1 ffffffffffffffffffffffffffffffff 1354 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/Info.plist
 000000005312d203000000000171f02c 952d951cf0cc03688b3d3fd628853ed8 ffffffffffffffffffffffffffffffff 617844 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/KwisT
 8430fb70ab7975bb84f72b3065595f0e 76fc5f6a35ef5d1c02d1264ccd66206a ffffffffffffffffffffffffffffffff 218800 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphonesimulator/KwisT.build/Objects-normal/i386/CDVInAppBrowser.o
 8430fb70ab792ca584f72b3065599131 ca7f1db04257d5074291c62916870366 ffffffffffffffffffffffffffffffff 128276 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphonesimulator/KwisT.build/Objects-normal/i386/SocialSharing.o
