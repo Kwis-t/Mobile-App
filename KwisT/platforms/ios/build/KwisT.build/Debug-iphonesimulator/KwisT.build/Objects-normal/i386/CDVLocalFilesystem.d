@@ -1,24 +1,24 @@
 dependencies: \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/KwisT/Plugins/org.apache.cordova.file/CDVLocalFilesystem.m \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/KwisT/Plugins/org.apache.cordova.file/CDVFile.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/KwisT/Plugins/org.apache.cordova.file/CDVLocalFilesystem.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/CDV.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/CDVViewController.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/CDVDebug.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/CDVTimer.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h \
-  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/KwisT/Plugins/org.apache.cordova.file/CDVLocalFilesystem.m \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/KwisT/Plugins/org.apache.cordova.file/CDVFile.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/KwisT/Plugins/org.apache.cordova.file/CDVLocalFilesystem.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/CDV.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/CDVViewController.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/CDVDebug.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/CDVTimer.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
