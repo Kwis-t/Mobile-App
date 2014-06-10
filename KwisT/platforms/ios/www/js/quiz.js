@@ -64,13 +64,19 @@ var quizMaster = (function () {
 
 		if(current.state === "introduction") {
             console.log('introduction');
-            introHTML = "<div class='text'><p id='introduction'>" + current.introduction + "</p>" + nextButton("Start quiz") +  "</div>"
-            $("#contentkaart").html(introHTML);
+            //introHTML = "<div class='text'><p id='introduction'>" + current.introduction + "</p>" + nextButton("Start quiz") +  "</div>";
+            introHTML = "<div class='blue-button-holder'><a qvalue='start' class='quizMasterNext blue-button-intro'>Start Quiz</a>" + "<a class='infoscherm blue-button-intro'>Info</a></div>";
+
+            $(".content").css('background-image', 'url(images/splas.png)');
+            $(".content").css('background-size', 'cover');
+            $(".content").html(introHTML);
 //            displayDom.trigger('create');
 
 
 		} else if(current.state === "inprogress") {
+            $(".content").html('<div id="contentkaart" class="card-new"></div>');
             $(".balloon").remove();
+            $(".content").css('background-image', '');
             $("body").prepend("<div class='balloon'>Vraag " + (parseInt(getUserStatus().question)+parseInt(1)) + "</div>");
 
             console.log('inprogress');
@@ -78,7 +84,7 @@ var quizMaster = (function () {
             introHTML = "<div class='text question-text'>" + current.question.text +
                 "</div> <div class='question-title'>" + current.question.question + "</div><div class='answers-box'>";
             for(var i=0; i<current.question.answers.length; i++) {
-                introHTML += "<a class='answer' href='#'><div class='answer-button'>" + String.fromCharCode(i + 97) + "</div><div qvalue='" + [i] + "'  lvalue='" + String.fromCharCode(i + 97) + "'class='quizMasterNext answer-title'>" + current.question.answers[i] + "</div></a>";
+                introHTML += "<a class='answer' href='#'><div qvalue='start' class='answer-button'>" + String.fromCharCode(i + 97) + "</div><div qvalue='" + [i] + "'  lvalue='" + String.fromCharCode(i + 97) + "'class='quizMasterNext answer-title'>" + current.question.answers[i] + "</div></a>";
             }
             introHTML += "</div>";
             $("#contentkaart").html(introHTML);
@@ -170,6 +176,18 @@ var quizMaster = (function () {
         $( ".quizMasterNext" ).each(function(index) {
             $(this).on("click", function(){
                 nextHandler($(this));
+            });
+        });
+        $( ".infoscherm" ).each(function(index) {
+            $(this).on("click", function(){
+            $(".content").html('<div id="contentkaart" class="card-new"></div>');
+            $(".balloon").remove();
+            $(".content").css('background-image', '');
+            introHTML = "info over de app";
+            $("#contentkaart").html(introHTML);
+
+            //done
+            //location.reload()
             });
         });
 	}

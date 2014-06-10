@@ -183,6 +183,30 @@ body {
 	border-radius: 7px 7px 7px 7px;
 }
 
+.blue-button-holder {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+}
+
+.blue-button-intro {
+    display: inline-block;
+    width: 40%;
+    background: #62a1f8;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 10px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border-radius: 7px 7px 7px 7px;
+    float: left;
+    margin-left: 7%;
+}
+
 .card-new .scores-other {
 	overflow: hidden;
 }
