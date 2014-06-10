@@ -1,8 +1,8 @@
 dependencies: \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVPlugin.m \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVPlugin.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVPluginResult.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVAvailability.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVPlugin.m \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVPlugin.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVPluginResult.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVAvailability.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h

@@ -1,4 +1,4 @@
 dependencies: \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVAvailability.h

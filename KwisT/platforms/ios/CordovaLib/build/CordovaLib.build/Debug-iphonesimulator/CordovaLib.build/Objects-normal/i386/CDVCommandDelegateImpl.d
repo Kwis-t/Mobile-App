@@ -1,14 +1,14 @@
 dependencies: \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVAvailability.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVJSON.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVPluginResult.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVViewController.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVWhitelist.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/CDVPlugin.h \
-  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVAvailability.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVJSON.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVPluginResult.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVViewController.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVWhitelist.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/CDVPlugin.h \
+  /Users/Paul/Documents/Fontys/M61/MOB/final/KwisT/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
