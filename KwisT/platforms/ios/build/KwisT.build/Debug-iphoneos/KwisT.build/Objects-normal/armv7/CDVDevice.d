@@ -1,0 +1,23 @@
+dependencies: \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/Plugins/org.apache.cordova.device/CDVDevice.m \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/CDV.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/CDVAvailability.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/CDVPlugin.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/CDVPluginResult.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/CDVViewController.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/CDVWhitelist.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/CDVDebug.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/CDVTimer.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/NSData+Base64.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/include/Cordova/CDVJSON.h \
+  /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/Plugins/org.apache.cordova.device/CDVDevice.h

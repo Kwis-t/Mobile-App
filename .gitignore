@@ -1,8 +1,0 @@
-xcuserdata
-*.xccheckout
-
-KwisT/platforms/*
-
-KwisT/www/.idea/workspace.xml
-
-.idea/workspace.xml
