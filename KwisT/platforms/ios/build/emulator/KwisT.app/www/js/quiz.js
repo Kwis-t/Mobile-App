@@ -31,7 +31,12 @@ var quizMaster = (function () {
                     var introHTML = "<div class='answer-info'><div class='answer-info-title'><div class='answer-info-button'>" + e.attr('lvalue') + "</div><div class='answer-info-text'>" + e.text() +
                         "</div></div><img src='images/vraag_overlay.png' class='overlay' />" +
                         "<img src='images/vraag"+(parseInt(status.question)+parseInt(1))+"_image.png' /></div><div class='text'><div class='text-header'>" + current.question.infoheader + "</div>" +
-                        "<p>" + current.question.infotext + "</p><a href='#' class='quizMasterNext blue-button'>Volgende vraag</a></div>";
+                        "<p>" + current.question.infotext + "</p><a href='#' class='quizMasterNext blue-button'>Volgende vraag</a></div>" +
+                        "<a href='#myModalexample' class='btn'>Open modal</a>" +
+                        "<div id='myModalexample' class='modal'>   <header class='bar bar-nav'>  " +
+                        "<a class='icon icon-close pull-right' href='#myModalexample'></a>" +
+                        "<h1 class='title'>Modal</h1>" +
+                        "</header></div>";
                     $("#contentkaart").html(introHTML);
                     $( ".quizMasterNext" ).each(function(index) {
                         $(this).on("click", function(){

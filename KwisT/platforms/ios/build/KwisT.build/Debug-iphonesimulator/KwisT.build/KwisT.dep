@@ -1,5 +1,5 @@
-7d57dc0b9cfa16d955191cdf6bd712d3 948998af49f9727615ba49a5ddf89dc5 ffffffffffffffffffffffffffffffff 1020 /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app
-0000000053975be90000000000000a85 1ea194a98828047e16210063a6a157bb ffffffffffffffffffffffffffffffff 0 /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/PkgInfo
+be261f96584366fe703254752b479d8e 948998af49f9727615ba49a5ddf89dc5 ffffffffffffffffffffffffffffffff 1020 /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app
+00000000539763010000000000000a85 1ea194a98828047e16210063a6a157bb ffffffffffffffffffffffffffffffff 0 /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/PkgInfo
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 11706 /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/icon-72@2x.png
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 15262 /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/icon-76@2x.png
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 9611 /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/icon-50@2x.png
@@ -24,8 +24,8 @@ ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffff
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 4944 /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/icon-72.png
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 7411 /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/icon-40@2x.png
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 7025 /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/icon-76.png
-4e6f6086eb37d00b94d403391f771161 8e8d031823ec7aa2e0d9a111a999aca8 ffffffffffffffffffffffffffffffff 102 /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app.dSYM
-0000000053975be90000000000000a85 1ea194a98828047e16210063a6a157bb ffffffffffffffffffffffffffffffff 1354 /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/Info.plist
+8d1ea31b2f8e98c4b1ff4b935fe79e3c 8e8d031823ec7aa2e0d9a111a999aca8 ffffffffffffffffffffffffffffffff 102 /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app.dSYM
+00000000539763010000000000000a85 1ea194a98828047e16210063a6a157bb ffffffffffffffffffffffffffffffff 1354 /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/Info.plist
 c371c39dc528bc3a252b48aa41f8b3b1 93bf37b2f5a033a6a7de4bf0f82effee ffffffffffffffffffffffffffffffff 618208 /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/emulator/KwisT.app/KwisT
 a7a38587119921733904239ea0322ca6 6f71b3e1e332f4c7169679df0327f128 ffffffffffffffffffffffffffffffff 218800 /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphonesimulator/KwisT.build/Objects-normal/i386/CDVInAppBrowser.o
 a7a38587119921733904239ea032e299 e3f5330589b6ebe2d774477cf798751d ffffffffffffffffffffffffffffffff 128276 /Users/Paul/Documents/Fontys/M61/MOB/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphonesimulator/KwisT.build/Objects-normal/i386/SocialSharing.o
