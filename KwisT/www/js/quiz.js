@@ -39,8 +39,6 @@ var quizMaster = (function () {
                             nextHandler($(this));
                         });
                     });
-
-                    
                 }
 
                 $( ".wikiclick" ).each(function(index) {
@@ -80,6 +78,7 @@ var quizMaster = (function () {
                                             }
                                         }
                                     }
+
                                     pText = pText.substring(0, pText.length - 2); //Remove extra newline
                                     pText = pText.replace(/\[\d+\]/g, ""); //Remove reference tags (e.x. [1], [4], etc)
                                     //document.getElementById('textarea').value = pText
@@ -90,10 +89,21 @@ var quizMaster = (function () {
                                     $(".content").html('<div id="contentkaart" class="card-new"></div>');
                                     $(".balloon").remove();
                                     $(".content").css('background-image', '');
-                                    if(status.question == 6){
-                                        introHTML = "<div class='text'><br\><br\><br\>"+pText+"<a href='#' class='quizMasterNext blue-button'>Bekijk mijn score</a></div>";
-                                    }else{
-                                        introHTML = "<div class='text'><br\><br\><br\>"+pText+"<a href='#' class='quizMasterNext blue-button'>Volgende vraag</a></div>";
+
+
+
+
+                                    if(status.question == 6)
+                                    {
+//                                        introHTML = "<div class='text question-text'><p>"+pText+"<a href='#' class='quizMasterNext blue-button'>Bekijk mijn score</a></div>";
+                                        introHTML = "<div class='answer-info'><div class='answer-info-title'></div>" +
+                                            "<img src='images/arts.jpg' /></div><div class='text'>"+pText+"<a href='#' class='quizMasterNext blue-button'>Volgende vraag</a></div>";
+                                    }
+                                    else
+                                    {
+                                        introHTML = "<div class='answer-info'><div class='answer-info-title'></div>" +
+                                            "<img src='images/arts.jpg' /></div><div class='text'>"+pText+"<a href='#' class='quizMasterNext blue-button'>Volgende vraag</a></div>";
+//                                        introHTML = "<div class='text question-text'><p>"+pText+"<a href='#' class='quizMasterNext blue-button'>Volgende vraag</a></div>";
                                     }
                                     $("#contentkaart").html(introHTML);
                                     $("body").prepend("<div class='balloon'>"+title+"</div>");
@@ -106,12 +116,6 @@ var quizMaster = (function () {
                                 }
                             });
                         });
-
-
-
-
-
-
 
                     });
                 });
@@ -187,6 +191,11 @@ var quizMaster = (function () {
                 vibrate();
             }else{
                 submitVar = "onbewust";
+
+                var media = new Media('resources/audio/clapping.wav');
+
+                media.play()
+                vibrate();
             }
 
             $.ajax({

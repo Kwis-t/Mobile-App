@@ -76,8 +76,8 @@ t1401788967
 s5977
 
 N/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Info.plist
-c0000000053970BC80000000000000A85
-t1402407880
+c0000000053981AFE0000000000000A85
+t1402477310
 s2693
 
 N/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Prefix.pch
@@ -306,7 +306,7 @@ t1401788967
 s1116
 
 N/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphoneos/KwisT.build/KwisT.xcent
-t1402407881
+t1402477311
 s420
 
 N/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphoneos/KwisT.build/Objects-normal/armv7/AppDelegate.o
@@ -372,11 +372,11 @@ t1402395488
 s45
 
 N/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app
-t1402407881
+t1402477311
 s1088
 
 N/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app.dSYM
-t1402407476
+t1402477274
 s102
 
 N/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/Default-568h@2x~iphone.png
@@ -408,11 +408,11 @@ t1402395489
 s402724
 
 N/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/Info.plist
-t1402407881
+t1402477311
 s1630
 
 N/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/KwisT
-t1402407476
+t1402477274
 s587872
 
 N/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/MainViewController.nib
@@ -432,7 +432,7 @@ t1402395489
 s280
 
 N/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/embedded.mobileprovision
-t1402407881
+t1402477311
 s8217
 
 N/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/en.lproj/Localizable.strings
@@ -881,17 +881,17 @@ s5314564
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies97c53c494347b941^8db745494347b941^---0#1#1#--18"Check dependencies36"A6A21EDC-0E32-4644-B55E-92A7AD64CC8F-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa4fb2d7f5248b941^21b1357f5248b941^---0#1#1#--18"Check dependencies36"D0F150A7-C243-4174-87A4-2B7FCFE244DF-
 
 CCodeSign /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app
-s424100681.585753
-e424100681.776176
+s424170111.537732
+e424170111.709978
 r1
 xCodeSign
 x/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app
 o/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app: replacing existing signature
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"[1mCodeSign[0m [1mbuild/device/KwisT.app[0m47"[1mCodeSign[0m [1mbuild/device/KwisT.app[0m471c96494347b941^6fbdc6494347b941^-110"/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app: replacing existing signature-0#0#1#-19%DVTDocumentLocation2@87"file:///Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/0000000000000000^1585"[1mCodeSign[0m [1mbuild/device/KwisT.app[0m    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/ferdiduisters/.rvm/bin:/Users/ferdiduisters/bin/Sencha/Cmd/3.1.2.342:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Android Studio.app/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/platform-tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/apache-ant-1.9.4/bin"    Using code signing identity "iPhone Developer: Ferdi Duisters (KAG52H3QFP)" and provisioning profile "iOS Team Provisioning Profile: *" (F3CB9221-4746-4E2A-8348-AB025FF68CE6)    /usr/bin/codesign --force --sign 30065E137023727E2E26D252116705ECB53DA597 --resource-rules=/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/ResourceRules.plist --entitlements /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphoneos/KwisT.build/KwisT.xcent /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app36"0B2F8B0B-DEB1-4BA0-A9A8-4D00C3FFB853-
-bB857CD4C-1E88-4C9C-808D-021CC193B950
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"[1mCodeSign[0m [1mbuild/device/KwisT.app[0m47"[1mCodeSign[0m [1mbuild/device/KwisT.app[0madbf897f5248b941^8ac7b57f5248b941^-110"/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app: replacing existing signature-0#0#1#-19%DVTDocumentLocation2@87"file:///Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/0000000000000000^1585"[1mCodeSign[0m [1mbuild/device/KwisT.app[0m    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/ferdiduisters/.rvm/bin:/Users/ferdiduisters/bin/Sencha/Cmd/3.1.2.342:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Android Studio.app/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/platform-tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/apache-ant-1.9.4/bin"    Using code signing identity "iPhone Developer: Ferdi Duisters (KAG52H3QFP)" and provisioning profile "iOS Team Provisioning Profile: *" (F3CB9221-4746-4E2A-8348-AB025FF68CE6)    /usr/bin/codesign --force --sign 30065E137023727E2E26D252116705ECB53DA597 --resource-rules=/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/ResourceRules.plist --entitlements /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphoneos/KwisT.build/KwisT.xcent /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app36"DDAAED11-A44C-41B9-9240-BF8A02DCEDA0-
+b2B743EDC-0F54-4A88-8EAA-395B17AED900
 
 CCompileC build/KwisT.build/Debug-iphoneos/KwisT.build/Objects-normal/armv7/AppDelegate.o /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s424088291.452196
@@ -1608,14 +1608,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy bu
 b0B549622-5EA3-411E-B897-1B938F5B4714
 
 CGenerateDSYMFile /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app.dSYM /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/KwisT
-s424100681.520473
-e424100681.575945
+s424170111.470086
+e424170111.528059
 r1
 xGenerateDSYMFile
 x/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app.dSYM
 x/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/KwisT
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Generate /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app.dSYM89"[1mGenerateDSYMFile[0m [1mbuild/device/KwisT.app.dSYM[0m build/device/KwisT.app/KwisT7a5385494347b941^867193494347b941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app.dSYM/0000000000000000^1184"[1mGenerateDSYMFile[0m [1mbuild/device/KwisT.app.dSYM[0m build/device/KwisT.app/KwisT    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/ferdiduisters/.rvm/bin:/Users/ferdiduisters/bin/Sencha/Cmd/3.1.2.342:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Android Studio.app/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/platform-tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/apache-ant-1.9.4/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/KwisT -o /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app.dSYM36"B4315376-EB5F-4A0D-9793-ABAED3A7F733-
-bB857CD4C-1E88-4C9C-808D-021CC193B950
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Generate /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app.dSYM89"[1mGenerateDSYMFile[0m [1mbuild/device/KwisT.app.dSYM[0m build/device/KwisT.app/KwisT3f71787f5248b941^982f877f5248b941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app.dSYM/0000000000000000^1184"[1mGenerateDSYMFile[0m [1mbuild/device/KwisT.app.dSYM[0m build/device/KwisT.app/KwisT    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/ferdiduisters/.rvm/bin:/Users/ferdiduisters/bin/Sencha/Cmd/3.1.2.342:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Android Studio.app/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/platform-tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/apache-ant-1.9.4/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/KwisT -o /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app.dSYM36"7F196184-27C2-4839-B5A7-ABE5DACE2A24-
+b2B743EDC-0F54-4A88-8EAA-395B17AED900
 
 CLd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/KwisT normal armv7
 s424088292.063299
@@ -1690,28 +1690,28 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Link /A
 b0B549622-5EA3-411E-B897-1B938F5B4714
 
 CPhaseScriptExecution Copy\ www\ directory /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphoneos/KwisT.build/Script-304B58A110DAC018002A0835.sh
-s424100681.276263
-e424100681.510058
+s424170111.213246
+e424170111.463856
 r1
 xPhaseScriptExecution
 xCopy www directory
 x/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphoneos/KwisT.build/Script-304B58A110DAC018002A0835.sh
 o
-oreal	0m0.212s
-ouser	0m0.080s
-osys	0m0.129s
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'129"[1mPhaseScriptExecution[0m Copy\ www\ directory build/KwisT.build/Debug-iphoneos/KwisT.build/Script-304B58A110DAC018002A0835.shf04d47494347b941^039482494347b941^-42"real	0m0.212suser	0m0.080ssys	0m0.129s3(21%IDEActivityLogMessage2@14"real	0m0.212s-424100681#1#14#-0#-----2@14"user	0m0.080s-424100681#15#14#-0#-----2@13"sys	0m0.129s-424100681#29#13#-0#-----0#0#1#--346"[1mPhaseScriptExecution[0m Copy\ www\ directory build/KwisT.build/Debug-iphoneos/KwisT.build/Script-304B58A110DAC018002A0835.sh    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    /bin/sh -c /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphoneos/KwisT.build/Script-304B58A110DAC018002A0835.sh36"94476534-4F1B-4B54-8015-7E4C13F8B088-
-bB857CD4C-1E88-4C9C-808D-021CC193B950
+oreal	0m0.231s
+ouser	0m0.089s
+osys	0m0.134s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'129"[1mPhaseScriptExecution[0m Copy\ www\ directory build/KwisT.build/Debug-iphoneos/KwisT.build/Script-304B58A110DAC018002A0835.shd103377f5248b941^05c2767f5248b941^-42"real	0m0.231suser	0m0.089ssys	0m0.134s3(21%IDEActivityLogMessage2@14"real	0m0.231s-424170111#1#14#-0#-----2@14"user	0m0.089s-424170111#15#14#-0#-----2@13"sys	0m0.134s-424170111#29#13#-0#-----0#0#1#--346"[1mPhaseScriptExecution[0m Copy\ www\ directory build/KwisT.build/Debug-iphoneos/KwisT.build/Script-304B58A110DAC018002A0835.sh    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    /bin/sh -c /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphoneos/KwisT.build/Script-304B58A110DAC018002A0835.sh36"F8CE5B83-1499-4A6C-ADC8-49580A874BAC-
+b2B743EDC-0F54-4A88-8EAA-395B17AED900
 
 CProcessInfoPlistFile /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/Info.plist /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Info.plist
-s424100681.272913
-e424100681.275033
+s424170111.210318
+e424170111.212125
 r1
 xProcessInfoPlistFile
 x/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/Info.plist
 x/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Process /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Info.plist93"[1mProcessInfoPlistFile[0m build/device/KwisT.app/Info.plist [1mKwisT/KwisT-Info.plist[0m95f345494347b941^8c6946494347b941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Info.plist0000000000000000^1391"[1mProcessInfoPlistFile[0m build/device/KwisT.app/Info.plist [1mKwisT/KwisT-Info.plist[0m    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/ferdiduisters/.rvm/bin:/Users/ferdiduisters/bin/Sencha/Cmd/3.1.2.342:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Android Studio.app/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/platform-tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/apache-ant-1.9.4/bin"    builtin-infoPlistUtility /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Info.plist -genpkginfo /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/ResourceRules.plist -o /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/Info.plist36"0FA3BAE3-E3E0-4AEE-B539-A6C116A367FC-
-bB857CD4C-1E88-4C9C-808D-021CC193B950
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Process /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Info.plist93"[1mProcessInfoPlistFile[0m build/device/KwisT.app/Info.plist [1mKwisT/KwisT-Info.plist[0m70ec357f5248b941^554f367f5248b941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Info.plist0000000000000000^1391"[1mProcessInfoPlistFile[0m build/device/KwisT.app/Info.plist [1mKwisT/KwisT-Info.plist[0m    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/ferdiduisters/.rvm/bin:/Users/ferdiduisters/bin/Sencha/Cmd/3.1.2.342:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Android Studio.app/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/platform-tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/apache-ant-1.9.4/bin"    builtin-infoPlistUtility /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/KwisT/KwisT-Info.plist -genpkginfo /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/ResourceRules.plist -o /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/Info.plist36"9C47606A-2877-4D35-83B9-68BBF1C025E0-
+b2B743EDC-0F54-4A88-8EAA-395B17AED900
 
 CProcessPCH /var/folders/qq/dj5w4b6x33x8yy6c91fvn_xw0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/KwisT-Prefix-cyuusfslojhsxsetbrlwzapmhctq/KwisT-Prefix.pch.pch KwisT/KwisT-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s424088290.880268
@@ -1729,31 +1729,31 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precomp
 b0B549622-5EA3-411E-B897-1B938F5B4714
 
 CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphoneos/KwisT.build/KwisT.xcent
-s424100681.584010
-e424100681.585409
+s424170111.536030
+e424170111.537379
 r1
 xProcessProductPackaging
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
 x/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphoneos/KwisT.build/KwisT.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection217"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/KwisT.build/Debug-iphoneos/KwisT.build/KwisT.xcent[0m217"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/KwisT.build/Debug-iphoneos/KwisT.build/KwisT.xcent[0m0c9395494347b941^33df95494347b941^---0#0#1#-19%DVTDocumentLocation2@120"file:///Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphoneos/KwisT.build/KwisT.xcent0000000000000000^1338"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/KwisT.build/Debug-iphoneos/KwisT.build/KwisT.xcent[0m    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/ferdiduisters/.rvm/bin:/Users/ferdiduisters/bin/Sencha/Cmd/3.1.2.342:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Android Studio.app/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/platform-tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/apache-ant-1.9.4/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphoneos/KwisT.build/KwisT.xcent36"C4909602-515F-4591-9327-E2F103585FB7-
-bB857CD4C-1E88-4C9C-808D-021CC193B950
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection217"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/KwisT.build/Debug-iphoneos/KwisT.build/KwisT.xcent[0m217"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/KwisT.build/Debug-iphoneos/KwisT.build/KwisT.xcent[0mad4b897f5248b941^4392897f5248b941^---0#0#1#-19%DVTDocumentLocation2@120"file:///Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphoneos/KwisT.build/KwisT.xcent0000000000000000^1338"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/KwisT.build/Debug-iphoneos/KwisT.build/KwisT.xcent[0m    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/ferdiduisters/.rvm/bin:/Users/ferdiduisters/bin/Sencha/Cmd/3.1.2.342:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Android Studio.app/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/platform-tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/apache-ant-1.9.4/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphoneos/KwisT.build/KwisT.xcent36"C483BB7C-40C4-4944-B3D6-FAD9B2E07DB4-
+b2B743EDC-0F54-4A88-8EAA-395B17AED900
 
 CProcessProductPackaging /Users/ferdiduisters/Library/MobileDevice/Provisioning\ Profiles/F3CB9221-4746-4E2A-8348-AB025FF68CE6.mobileprovision /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/embedded.mobileprovision
-s424100681.576542
-e424100681.577762
+s424170111.528503
+e424170111.529800
 r1
 xProcessProductPackaging
 x/Users/ferdiduisters/Library/MobileDevice/Provisioning Profiles/F3CB9221-4746-4E2A-8348-AB025FF68CE6.mobileprovision
 x/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection205"[1mProcessProductPackaging[0m /Users/ferdiduisters/Library/MobileDevice/Provisioning\ Profiles/F3CB9221-4746-4E2A-8348-AB025FF68CE6.mobileprovision [1mbuild/device/KwisT.app/embedded.mobileprovision[0m205"[1mProcessProductPackaging[0m /Users/ferdiduisters/Library/MobileDevice/Provisioning\ Profiles/F3CB9221-4746-4E2A-8348-AB025FF68CE6.mobileprovision [1mbuild/device/KwisT.app/embedded.mobileprovision[0me2ad93494347b941^a2ee93494347b941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/embedded.mobileprovision0034ac49deffdf42^1288"[1mProcessProductPackaging[0m /Users/ferdiduisters/Library/MobileDevice/Provisioning\ Profiles/F3CB9221-4746-4E2A-8348-AB025FF68CE6.mobileprovision [1mbuild/device/KwisT.app/embedded.mobileprovision[0m    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/ferdiduisters/.rvm/bin:/Users/ferdiduisters/bin/Sencha/Cmd/3.1.2.342:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Android Studio.app/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/platform-tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/apache-ant-1.9.4/bin"    builtin-productPackagingUtility /Users/ferdiduisters/Library/MobileDevice/Provisioning\ Profiles/F3CB9221-4746-4E2A-8348-AB025FF68CE6.mobileprovision -o /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/embedded.mobileprovision36"062AAEAF-71C7-432D-9199-30AE58486A9F-
-bB857CD4C-1E88-4C9C-808D-021CC193B950
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection205"[1mProcessProductPackaging[0m /Users/ferdiduisters/Library/MobileDevice/Provisioning\ Profiles/F3CB9221-4746-4E2A-8348-AB025FF68CE6.mobileprovision [1mbuild/device/KwisT.app/embedded.mobileprovision[0m205"[1mProcessProductPackaging[0m /Users/ferdiduisters/Library/MobileDevice/Provisioning\ Profiles/F3CB9221-4746-4E2A-8348-AB025FF68CE6.mobileprovision [1mbuild/device/KwisT.app/embedded.mobileprovision[0md36b877f5248b941^33a3877f5248b941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/embedded.mobileprovision00345c20deffdf42^1288"[1mProcessProductPackaging[0m /Users/ferdiduisters/Library/MobileDevice/Provisioning\ Profiles/F3CB9221-4746-4E2A-8348-AB025FF68CE6.mobileprovision [1mbuild/device/KwisT.app/embedded.mobileprovision[0m    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/ferdiduisters/.rvm/bin:/Users/ferdiduisters/bin/Sencha/Cmd/3.1.2.342:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Android Studio.app/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/platform-tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/apache-ant-1.9.4/bin"    builtin-productPackagingUtility /Users/ferdiduisters/Library/MobileDevice/Provisioning\ Profiles/F3CB9221-4746-4E2A-8348-AB025FF68CE6.mobileprovision -o /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/embedded.mobileprovision36"602292EE-0153-4681-9AA6-4CD513632226-
+b2B743EDC-0F54-4A88-8EAA-395B17AED900
 
 CTouch /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app
-s424100681.578987
-e424100681.583585
+s424170111.530606
+e424170111.535613
 r1
 xTouch
 x/Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Touch /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app36"[1mTouch[0m build/device/KwisT.appf05094494347b941^5a6695494347b941^---0#0#1#--959"[1mTouch[0m build/device/KwisT.app    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/ferdiduisters/.rvm/bin:/Users/ferdiduisters/bin/Sencha/Cmd/3.1.2.342:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Android Studio.app/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/platform-tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/apache-ant-1.9.4/bin"    /usr/bin/touch -c /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app36"6A0DFF9D-D636-497B-A604-89378CE8EE0E-
-bB857CD4C-1E88-4C9C-808D-021CC193B950
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Touch /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app36"[1mTouch[0m build/device/KwisT.app59f7877f5248b941^211e897f5248b941^---0#0#1#--959"[1mTouch[0m build/device/KwisT.app    cd /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/ferdiduisters/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/ferdiduisters/.rvm/bin:/Users/ferdiduisters/bin/Sencha/Cmd/3.1.2.342:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Android Studio.app/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/sdk/platform-tools:/Users/ferdiduisters/Desktop/Android ontwikkelomgeving/apache-ant-1.9.4/bin"    /usr/bin/touch -c /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app36"EF82BC01-397A-499F-86B6-1F876BBD85EF-
+b2B743EDC-0F54-4A88-8EAA-395B17AED900
 

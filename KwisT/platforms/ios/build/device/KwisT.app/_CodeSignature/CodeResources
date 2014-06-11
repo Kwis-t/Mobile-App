@@ -146,7 +146,7 @@
 		</data>
 		<key>www/css/style.css</key>
 		<data>
-		EVVATlviRY0Tp/9pjjVWpclqCjI=
+		hMg1zvZCGqVYQ8hDJPsmcDrKyeI=
 		</data>
 		<key>www/fonts/candy_script-webfont.eot</key>
 		<data>
@@ -180,9 +180,17 @@
 		<data>
 		bQFvk5Zq2XvbTDtIbuEaq4hIH98=
 		</data>
+		<key>www/images/arts.jpg</key>
+		<data>
+		GU59vMp16he4Pmlp3wWohmYkC4U=
+		</data>
 		<key>www/images/balloon.png</key>
 		<data>
 		w96qN0sPY+HcLYluPxiAtwWMgnw=
+		</data>
+		<key>www/images/dokter.jpg</key>
+		<data>
+		i7WRgl6WnVugDaz9r3iuzmOcxi8=
 		</data>
 		<key>www/images/score_image.png</key>
 		<data>
@@ -196,9 +204,41 @@
 		<data>
 		XnV2X/EOPRA1Q6otudQC/Ya09x8=
 		</data>
+		<key>www/images/vraag2_image.png</key>
+		<data>
+		ZziIFUr6VUQHpnE3MhYHcET3y1I=
+		</data>
+		<key>www/images/vraag3_image.png</key>
+		<data>
+		hmfpyzoxn/M6N93oN2mHrlWVSfI=
+		</data>
+		<key>www/images/vraag4_image.png</key>
+		<data>
+		ZPJzbanuxNLl9vdaHDXYTe7tt5s=
+		</data>
+		<key>www/images/vraag5_image.png</key>
+		<data>
+		Kzeh38aC+uRiHhVzwYbvKdsG3Es=
+		</data>
+		<key>www/images/vraag6_image.png</key>
+		<data>
+		IAunrBXNWoxVvbdJuRv31IA2bUY=
+		</data>
+		<key>www/images/vraag7_image.png</key>
+		<data>
+		dpbKDkUhOFN3OHsb5ekHFcSRfto=
+		</data>
 		<key>www/images/vraag_overlay.png</key>
 		<data>
 		HOimyzetsS+cNRt/b0Db+GI+3bs=
+		</data>
+		<key>www/images/wikipedia-logo.png</key>
+		<data>
+		XMufKm8vOu8m/HYKgov5UOqggEA=
+		</data>
+		<key>www/images/wikipedia-logo@2x.png</key>
+		<data>
+		PFqwgoCrJ8L1OcKnV20NLiZw/dQ=
 		</data>
 		<key>www/img/logo.png</key>
 		<data>
@@ -218,7 +258,7 @@
 		</data>
 		<key>www/js/quiz.js</key>
 		<data>
-		ZslfagRIn4hFRYWaSqDBOed6KL4=
+		CZLgxLjrZbsZmeLDFGg+TU/kzqo=
 		</data>
 		<key>www/js/ratchet.js</key>
 		<data>
@@ -493,7 +533,7 @@
 		</data>
 		<key>www/css/style.css</key>
 		<data>
-		EVVATlviRY0Tp/9pjjVWpclqCjI=
+		hMg1zvZCGqVYQ8hDJPsmcDrKyeI=
 		</data>
 		<key>www/fonts/candy_script-webfont.eot</key>
 		<data>
@@ -527,9 +567,17 @@
 		<data>
 		bQFvk5Zq2XvbTDtIbuEaq4hIH98=
 		</data>
+		<key>www/images/arts.jpg</key>
+		<data>
+		GU59vMp16he4Pmlp3wWohmYkC4U=
+		</data>
 		<key>www/images/balloon.png</key>
 		<data>
 		w96qN0sPY+HcLYluPxiAtwWMgnw=
+		</data>
+		<key>www/images/dokter.jpg</key>
+		<data>
+		i7WRgl6WnVugDaz9r3iuzmOcxi8=
 		</data>
 		<key>www/images/score_image.png</key>
 		<data>
@@ -543,9 +591,41 @@
 		<data>
 		XnV2X/EOPRA1Q6otudQC/Ya09x8=
 		</data>
+		<key>www/images/vraag2_image.png</key>
+		<data>
+		ZziIFUr6VUQHpnE3MhYHcET3y1I=
+		</data>
+		<key>www/images/vraag3_image.png</key>
+		<data>
+		hmfpyzoxn/M6N93oN2mHrlWVSfI=
+		</data>
+		<key>www/images/vraag4_image.png</key>
+		<data>
+		ZPJzbanuxNLl9vdaHDXYTe7tt5s=
+		</data>
+		<key>www/images/vraag5_image.png</key>
+		<data>
+		Kzeh38aC+uRiHhVzwYbvKdsG3Es=
+		</data>
+		<key>www/images/vraag6_image.png</key>
+		<data>
+		IAunrBXNWoxVvbdJuRv31IA2bUY=
+		</data>
+		<key>www/images/vraag7_image.png</key>
+		<data>
+		dpbKDkUhOFN3OHsb5ekHFcSRfto=
+		</data>
 		<key>www/images/vraag_overlay.png</key>
 		<data>
 		HOimyzetsS+cNRt/b0Db+GI+3bs=
+		</data>
+		<key>www/images/wikipedia-logo.png</key>
+		<data>
+		XMufKm8vOu8m/HYKgov5UOqggEA=
+		</data>
+		<key>www/images/wikipedia-logo@2x.png</key>
+		<data>
+		PFqwgoCrJ8L1OcKnV20NLiZw/dQ=
 		</data>
 		<key>www/img/logo.png</key>
 		<data>
@@ -565,7 +645,7 @@
 		</data>
 		<key>www/js/quiz.js</key>
 		<data>
-		ZslfagRIn4hFRYWaSqDBOed6KL4=
+		CZLgxLjrZbsZmeLDFGg+TU/kzqo=
 		</data>
 		<key>www/js/ratchet.js</key>
 		<data>

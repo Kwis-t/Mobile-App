@@ -1,7 +1,7 @@
-20ecbeb985b45e60785a79827d50aa75 626b3ba35d5f94c9658e55d3cfe82c3e ffffffffffffffffffffffffffffffff 420 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphoneos/KwisT.build/KwisT.xcent
+20ecbeb985bb4f56785a79827d50aa75 db110c7ceae7083b76f55ba6a9404f4d ffffffffffffffffffffffffffffffff 420 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphoneos/KwisT.build/KwisT.xcent
 c47c55865412d063fb1b476016451249 3df0868985b4277c40c8e271ee012193 ffffffffffffffffffffffffffffffff 1088 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app
 00000000530b95b40000000000002019 1372ffbbc05f1d892f1e27fd7d33b67c ffffffffffffffffffffffffffffffff 8217 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/embedded.mobileprovision
-0000000053970bc80000000000000a85 20ecbeb9853d9258785a79827d50a064 ffffffffffffffffffffffffffffffff 0 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/PkgInfo
+0000000053981afe0000000000000a85 20ecbeb9853d9258785a79827d50a064 ffffffffffffffffffffffffffffffff 0 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/PkgInfo
 00000000538d9a270000000000002dba c20d86ed2381f6fe226696c34193eb8f ffffffffffffffffffffffffffffffff 17926 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/icon-72@2x.png
 00000000538d9a270000000000003b9e 3d54d35219a13d12bae937c875827f73 ffffffffffffffffffffffffffffffff 16629 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/icon-76@2x.png
 00000000538d9a27000000000000258b 228be8ee63a3fafabe91f077d05e70ce ffffffffffffffffffffffffffffffff 11331 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/icon-50@2x.png
@@ -27,8 +27,8 @@ c47c55865412d063fb1b476016451249 3df0868985b4277c40c8e271ee012193 ffffffffffffff
 00000000538d9a270000000000001cf3 c37a8298c0e65d2dbcffc52082267f77 ffffffffffffffffffffffffffffffff 8883 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/icon-40@2x.png
 00000000538d9a270000000000001b71 c9e6f736d9050d7adf992cf43e4be5f5 ffffffffffffffffffffffffffffffff 8463 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/icon-76.png
 00000000531ec7f00000000000000096 243c9ac4e5494c09b3918e3f19b8bd75 ffffffffffffffffffffffffffffffff 150 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/ResourceRules.plist
-f58d81f0f0ba6ca7f10c3a694784352a 225b080b46a501f3f6c3fccf3a53791f ffffffffffffffffffffffffffffffff 102 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app.dSYM
-0000000053970bc80000000000000a85 20ecbeb9853d9258785a79827d50a064 ffffffffffffffffffffffffffffffff 1630 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/Info.plist
+f58d81f0f0b57d91f10c3a694784352a 225b080b46a501f3f6c3fccf3a53791f ffffffffffffffffffffffffffffffff 102 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app.dSYM
+0000000053981afe0000000000000a85 20ecbeb9853d9258785a79827d50a064 ffffffffffffffffffffffffffffffff 1630 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/Info.plist
 d4ee78348beb0e9ad112b2d7165dd63e d5613f49750e3cc6895643eb38424405 ffffffffffffffffffffffffffffffff 587872 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/device/KwisT.app/KwisT
 920a9783ba9e95d1ec805155c70a4ece 99022e71ad18a8f1ccb023e224e7af02 ffffffffffffffffffffffffffffffff 227168 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphoneos/KwisT.build/Objects-normal/armv7/CDVInAppBrowser.o
 920a9783ba9ecccfec805155c70a80f1 13f8fb3bf32324adbc3ebe1f030e88cf ffffffffffffffffffffffffffffffff 135816 /Applications/MAMP/htdocs/Mobile-App/KwisT/platforms/ios/build/KwisT.build/Debug-iphoneos/KwisT.build/Objects-normal/armv7/SocialSharing.o
